@@ -1,0 +1,11 @@
+# Ignoriere die virtuelle Umgebung
+venv/
+
+# Python Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignoriere macOS .DS_Store-Dateien
+.DS_Store
+pythonBackend/.DS_Store
