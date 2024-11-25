@@ -9,3 +9,5 @@ __pycache__/
 # Ignoriere macOS .DS_Store-Dateien
 .DS_Store
 pythonBackend/.DS_Store
+
+.env
