@@ -11,3 +11,7 @@ __pycache__/
 pythonBackend/.DS_Store
 
 .env
+
+# ignoriere die pdfs und xmls
+pythonBackend/pdfs/
+pythonBackend/xmls/
