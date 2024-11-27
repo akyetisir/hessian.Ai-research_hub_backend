@@ -15,3 +15,5 @@ pythonBackend/.DS_Store
 # ignoriere die pdfs und xmls
 pythonBackend/pdfs/
 pythonBackend/xmls/
+*.xml
+*.pdf
