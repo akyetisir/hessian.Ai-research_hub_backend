@@ -39,5 +39,5 @@ if __name__ == "__main__":
         container = select_container(soup, selector)
         author_list[tag] = extract_authors(container)
     
-    with open('authors.json', 'w') as f:
-        json.dump(author_list, f, indent=4)
+    with open('authors.json', 'w', encoding='utf8') as f:
+        json.dump(author_list, f, indent=4, ensure_ascii=False)
