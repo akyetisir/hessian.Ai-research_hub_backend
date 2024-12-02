@@ -21,6 +21,9 @@ async def get_papers(author: str, max_results: int = 15):
         if not os.path.exists(xml_folder):  # Ordner erstellen, wenn er nicht existiert
             os.mkdir(xml_folder)
 
+        if not os.path.exists("pdfs"):
+            os.mkdir("pdfs")
+
         # Antwort erfolgreich, speichere die XML-Datei
         xml_filename = f"{xml_folder}/papers_{author}.xml"
         with open(xml_filename, "w", encoding="utf-8") as file:
