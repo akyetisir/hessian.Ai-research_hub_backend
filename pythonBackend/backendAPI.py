@@ -47,6 +47,24 @@ class Paper(BaseModel):
     relevance: int
     tags: list[str]
 
+
+@app.get("/papers/all", response_model=List[Paper])
+def getAllPapers():
+    papers_cursor = papers_collection.find()
+    papers = list(papers_cursor)
+
+    if papers:
+        return [Paper( 
+            title=paper['title'],
+            date=paper['date'],
+            authors=paper['authors'],
+            relevance=paper['relevance'],
+            tags=paper['tags']
+            ) for paper in papers]
+    else: 
+        raise HTTPException(status_code=404, detail="no papers found.")
+    
+    
 #Get-Anfrage für alle Paper die zu einem author gehören
 @app.get("/papers/author/{author_name}", response_model=List[Paper])
 def getPapersViaAuthor(author_name : str):
