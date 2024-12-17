@@ -7,6 +7,7 @@ import os
 from pydantic import BaseModel
 from typing import List
 from datetime import datetime
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
@@ -20,6 +21,14 @@ movies_collection = db["movies"]  #movies collection. Nur für Test
 papers_collection = db["papers"]  #papers collection
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all HTTP
+    allow_headers=["*"],  # Allows all headers
+)
 
 @app.get("/")
 def welcome():
