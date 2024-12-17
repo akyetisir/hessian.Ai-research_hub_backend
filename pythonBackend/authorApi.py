@@ -111,7 +111,7 @@ def download_pdf(pdf_url: str, output_dir: str, paper_title: str) -> str:
 
 def query_ieee(name: str, pdf_dir: str) -> List[Dict]:
     """Query IEEE API for papers."""
-    api_key = "YOUR_IEEE_API_KEY"
+    api_key = "currently_not_avaiable_aus_IEEE_seite"  
     url = f"https://ieeexploreapi.ieee.org/api/v1/search/articles?author={name}&apikey={api_key}"
     response = requests.get(url)
     if response.status_code == 200:
