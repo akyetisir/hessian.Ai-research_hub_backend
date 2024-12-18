@@ -102,7 +102,7 @@ def getPapersViaTag(tag : str):
     
 #Get-Anfrage für alle Paper mit einem speziefischen Tag    
 @app.get("/papers/title/{title}", response_model=List[Paper])
-def getPapersViaTag(title : str):
+def getPapersViaTitle(title : str):
     papers_cursor = papers_collection.find({"title": title}) 
     papers = list(papers_cursor)
 
