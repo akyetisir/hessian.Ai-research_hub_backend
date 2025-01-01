@@ -4,14 +4,17 @@ import requests
 from typing import List, Dict
 from urllib.parse import quote
 from dotenv import load_dotenv
+import re
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 load_dotenv()
 
-# Konstanten
+# Constants
 UNPAYWALL_API = "https://api.unpaywall.org/v2/"
 PUBMED_CENTRAL_API = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
-IEEE_API_KEY = os.getenv("IEEE-API-KEY")  
-UNPAYWALL_EMAIL = "tempEMail@hessianTest.com"  
+IEEE_API_KEY = os.getenv("IEEE-API-KEY")
+UNPAYWALL_EMAIL = "tempEMail@hessianTest.com"
 
 def create_dir(directory: str):
     """Ensure the directory exists."""
@@ -27,15 +30,39 @@ def save_results(results: List[Dict], output_file: str):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)
 
-# Ab hier die Queries
+def parse_year(date_str: str) -> int:
+    """Extract the year from a date string."""
+    match = re.search(r'\b(\d{4})\b', date_str)
+    return int(match.group(1)) if match else 0
+
+def sanitize_title(title: str) -> str:
+    """Sanitize the title for use in filenames."""
+    return re.sub(r'[^a-zA-Z0-9_\-]', '_', title)[:50]
+
+def is_similar(abstract: str, existing_abstracts: List[str], threshold: float = 0.9) -> bool:
+    """Check if the abstract is similar to any in the existing abstracts."""
+    if not abstract or not existing_abstracts:
+        return False
+    all_texts = existing_abstracts + [abstract]
+    tfidf_vectorizer = TfidfVectorizer().fit_transform(all_texts)
+    similarity_matrix = cosine_similarity(tfidf_vectorizer[-1], tfidf_vectorizer[:-1])
+    return any(sim >= threshold for sim in similarity_matrix[0])
+
+# Queries
 def query_ieee(name: str) -> List[Dict]:
     """Query IEEE API for papers."""
     print("Querying IEEE...")
     url = f"https://ieeexploreapi.ieee.org/api/v1/search/articles?author={quote(name)}&apikey={IEEE_API_KEY}"
     try:
         response = requests.get(url, timeout=10)
+        if response.status_code != 200:
+            print(f"IEEE API error: {response.text}")
+            return []
         articles = response.json().get('articles', [])
-        filtered_articles = [article for article in articles if int(article.get('publication_year', 0)) >= 2020]
+        filtered_articles = [
+            article for article in articles
+            if parse_year(article.get('publication_year', '0')) >= 2020 and name in article.get('authors', '')
+        ]
         if filtered_articles:
             print("Got a hit from IEEE!")
         return filtered_articles
@@ -50,7 +77,10 @@ def query_orcid(name: str) -> List[Dict]:
     try:
         response = requests.get(url, headers={"Accept": "application/json"}, timeout=10)
         results = response.json().get("results", [])
-        filtered_results = [result for result in results if int(result.get('bibjson', {}).get('year', 0)) >= 2020]
+        filtered_results = [
+            result for result in results
+            if parse_year(result.get('bibjson', {}).get('year', '0')) >= 2020 and name in result.get('title', '')
+        ]
         if filtered_results:
             print("Got a hit from ORCID!")
         return filtered_results
@@ -78,7 +108,7 @@ def query_pubmed_details(paper_id: str) -> Dict:
     try:
         response = requests.get(url, timeout=10)
         paper = response.json().get("result", {}).get(paper_id, {})
-        if int(paper.get('pubdate', '0').split()[-1]) >= 2020:
+        if parse_year(paper.get('pubdate', '0')) >= 2020:
             return paper
     except Exception as e:
         print(f"Error querying PubMed details: {e}")
@@ -91,7 +121,10 @@ def query_zenodo(name: str) -> List[Dict]:
     try:
         response = requests.get(url, timeout=10)
         results = response.json().get("hits", {}).get("hits", [])
-        filtered_results = [result for result in results if int(result.get('created', '1970-01-01').split('-')[0]) >= 2020]
+        filtered_results = [
+            result for result in results
+            if parse_year(result.get('created', '1970-01-01').split('-')[0]) >= 2020 and name in result.get('metadata', {}).get('title', '')
+        ]
         if filtered_results:
             print("Got a hit from Zenodo!")
         return filtered_results
@@ -132,10 +165,12 @@ def query_pubmed_central(doi: str) -> str:
         print(f"Error querying PubMed Central: {e}")
     return ""
 
-# PDF Download Part
-def download_pdf(url: str, output_dir: str, title: str):
+def download_pdf(url: str, output_dir: str, title: str, pub_date: str):
     """Download a PDF file."""
-    filename = f"{title[:50].replace(' ', '_').replace('/', '_')}.pdf"
+    if not url:
+        return
+    date_prefix = pub_date.split(' ')[0].replace('-', '') if pub_date else "unknown"
+    filename = f"{date_prefix}_{sanitize_title(title)}.pdf"
     filepath = os.path.join(output_dir, filename)
     try:
         response = requests.get(url, stream=True, timeout=10)
@@ -149,12 +184,12 @@ def download_pdf(url: str, output_dir: str, title: str):
     except Exception as e:
         print(f"Error downloading PDF: {e}")
 
-# Hauptfunktion
 def search_and_download(name: str, output_dir: str):
     """Search for papers, extract PDF links, and download PDFs."""
     all_papers = []
+    existing_abstracts = []
 
-    # API-Aufrufe
+    # API Calls
     print(f"Searching papers for: {name}")
     ieee_papers = query_ieee(name)
     orcid_papers = query_orcid(name)
@@ -163,19 +198,27 @@ def search_and_download(name: str, output_dir: str):
 
     pubmed_papers = [query_pubmed_details(pid) for pid in pubmed_ids]
 
-    # Zusammenführen der Ergebnisse
-    all_papers.extend(ieee_papers + orcid_papers + pubmed_papers + zenodo_papers)
+    # Combine and Filter Results
+    candidate_papers = ieee_papers + orcid_papers + pubmed_papers + zenodo_papers
+    for paper in candidate_papers:
+        abstract = paper.get("abstract", "").strip()
+        if not is_similar(abstract, existing_abstracts):
+            all_papers.append(paper)
+            if abstract:
+                existing_abstracts.append(abstract)
+
     save_results(all_papers, "combined_results.json")
     print("Saved all results to combined_results.json")
 
-    # PDFs herunterladen
+    # Download PDFs
     create_dir(output_dir)
     for paper in all_papers:
         doi = paper.get("doi") or paper.get("elocationid")
         pdf_url = query_unpaywall(doi) or query_pubmed_central(doi)
         if pdf_url:
-            title = paper.get("title", "unknown_title")
-            download_pdf(pdf_url, output_dir, title)
+            title = paper.get("title", f"paper_{paper.get('id', '')}")
+            pub_date = paper.get("pubdate", "unknown")
+            download_pdf(pdf_url, output_dir, title, pub_date)
         else:
             print(f"No PDF found for {paper.get('title', 'unknown_title')}")
 
@@ -184,9 +227,8 @@ def main():
     output_dir = "pdfs"
     for group, names in data.items():
         for name in names:
-            os.makedirs(f"pdfs\\{name}", exist_ok=True)
-            search_and_download(name, f"pdfs\\{name}")
-    
+            os.makedirs(f"pdfs\{name}", exist_ok=True)
+            search_and_download(name, f"pdfs\{name}")
 
 if __name__ == "__main__":
     main()
