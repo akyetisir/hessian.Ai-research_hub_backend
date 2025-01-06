@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from typing import List
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
+from typing import Optional
 
 load_dotenv()
 
@@ -42,46 +43,40 @@ def papers():
 #Paper Klasse definieren
 class Paper(BaseModel):
     title: str
-    date: datetime
+    published: Optional[datetime] = None
     authors: list[str]
     relevance: int
-    tags: list[str]
+    abstract: str
+    citations: int
+    views: int
+    content: str
+    journal: Optional[str] = None
+    #tags: list[str]
 
 
 @app.get("/papers/all", response_model=List[Paper])
-def getAllPapers():
+def get_all_papers():
     papers_cursor = papers_collection.find()
     papers = list(papers_cursor)
 
-    if papers:
-        return [Paper( 
-            title=paper['title'],
-            date=paper['date'],
-            authors=paper['authors'],
-            relevance=paper['relevance'],
-            tags=paper['tags']
-            ) for paper in papers]
-    else: 
-        raise HTTPException(status_code=404, detail="no papers found.")
+    if not papers:
+        raise HTTPException(status_code=404, detail="No papers found.")
+
+    return [dict_to_paper(paper_dict) for paper_dict in papers]
+
     
     
 #Get-Anfrage für alle Paper die zu einem author gehören
 @app.get("/papers/author/{author_name}", response_model=List[Paper])
-def getPapersViaAuthor(author_name : str):
-    papers_cursor = papers_collection.find({"authors": author_name}) #cursor (wie ein Iterator) wird zurückgegeben über den iteriert werden kann
-    papers = list(papers_cursor) #liste wird erstellt aus dem Cursor
+def get_papers_via_author(author_name: str):
+    papers_cursor = papers_collection.find({"authors": author_name})
+    papers = list(papers_cursor)
 
-    if papers: #wenn es ein paper gibt dann
-        #aus papers wird für jedes paper ein neues Paper Objekt erstellt, welches dann auch returnt wird
-        return [Paper( 
-            title=paper['title'],
-            date=paper['date'],
-            authors=paper['authors'],
-            relevance=paper['relevance'],
-            tags=paper['tags']
-            ) for paper in papers]
-    else: #404 wenn nicht gefunden
-        raise HTTPException(status_code=404, detail=f"no papers found for author {author_name}.")
+    if not papers:
+        raise HTTPException(status_code=404, detail=f"No papers found for author {author_name}.")
+
+    return [dict_to_paper(paper_dict) for paper_dict in papers]
+
     
 #Get-Anfrage für alle Paper mit einem speziefischen Tag    
 @app.get("/papers/tag/{tag}", response_model=List[Paper])
@@ -89,16 +84,10 @@ def getPapersViaTag(tag : str):
     papers_cursor = papers_collection.find({"tags": tag}) 
     papers = list(papers_cursor)
 
-    if papers:
-        return[Paper(
-            title=paper['title'],
-            date=paper['date'],
-            authors=paper['authors'],
-            relevance=paper['relevance'],
-            tags=paper['tags']
-            ) for paper in papers]
-    else:
+    if not papers:
         raise HTTPException(status_code=404, detail=f"no papers found for tag {tag}.")
+    
+    return [dict_to_paper(paper_dict) for paper_dict in papers]
     
 #Get-Anfrage für alle Paper mit einem speziefischen Tag    
 @app.get("/papers/title/{title}", response_model=List[Paper])
@@ -106,28 +95,27 @@ def getPapersViaTitle(title : str):
     papers_cursor = papers_collection.find({"title": title}) 
     papers = list(papers_cursor)
 
-    if papers:
-        return[Paper(
-            title=paper['title'],
-            date=paper['date'],
-            authors=paper['authors'],
-            relevance=paper['relevance'],
-            tags=paper['tags']
-            ) for paper in papers]
-    else:
+    if not papers:
         raise HTTPException(status_code=404, detail=f"no papers found for tag {title}.")
     
-#Test für das Abfragen der movies collection
-class Movie(BaseModel):
-    title: str
-    year: int
-    genres: List[str]
-
-@app.get("/movies/{movie_title}", response_model=Movie)
-def getMovies(movie_title : str):
-    movie = movies_collection.find_one({"title": movie_title})
-    if movie:
-        return Movie(title=movie['title'], year=movie['year'], genres=movie['genres'])
-    else:
-        return {"error": "Movie not found"}
+    return [dict_to_paper(paper_dict) for paper_dict in papers]
     
+    
+
+def dict_to_paper(paper_dict: dict) -> Paper:
+    """
+    Konvertiert ein Dictionary aus MongoDB in ein Paper-Objekt.
+    Fehlende Felder werden mit Defaultwerten oder None gefüllt.
+    """
+    return Paper(
+        title=paper_dict.get('title', 'unknown'),
+        published=paper_dict.get('published'),  # falls optional im Modell
+        authors=paper_dict.get('authors', []),
+        relevance=paper_dict.get('relevance', 0),
+        abstract=paper_dict.get('abstract', 'unknown'),
+        citations=paper_dict.get('citations', 0),
+        views=paper_dict.get('views', 0),
+        content=paper_dict.get('content', 'unknown'),
+        journal=paper_dict.get('journal', 'unknown')
+    )
+
