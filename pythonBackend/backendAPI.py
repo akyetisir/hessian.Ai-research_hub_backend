@@ -51,6 +51,7 @@ class Paper(BaseModel):
     views: int
     content: str
     journal: Optional[str] = None
+    path: Optional[str] = None
     #tags: list[str]
 
 
@@ -116,6 +117,7 @@ def dict_to_paper(paper_dict: dict) -> Paper:
         citations=paper_dict.get('citations', 0),
         views=paper_dict.get('views', 0),
         content=paper_dict.get('content', 'unknown'),
-        journal=paper_dict.get('journal', 'unknown')
+        journal=paper_dict.get('journal', 'unknown'),
+        path=paper_dict.get('path','no PDF existing')
     )
 
