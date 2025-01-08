@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi import HTTPException
+from fastapi.staticfiles import StaticFiles
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 from dotenv import load_dotenv
@@ -21,6 +22,12 @@ db = client[db]  # Aktueller Name der Sample DB. Muss später geändert werden. 
 movies_collection = db["movies"]  #movies collection. Nur für Test
 papers_collection = db["papers"]  #papers collection
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PDF_DIR = os.path.join(BASE_DIR, "pdfs")
+
+print("BASE_DIR:", BASE_DIR)
+print("PDF_DIR:", PDF_DIR)
+
 app = FastAPI()
 
 app.add_middleware(
@@ -30,6 +37,13 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all HTTP
     allow_headers=["*"],  # Allows all headers
 )
+
+
+# "pdfs" ist der lokale Ordner; 
+# "/pdfs" wird die URL, unter der die Dateien abrufbar sind.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PDF_DIR = os.path.join(BASE_DIR, "..", "pdfs")
+app.mount("/pdfs", StaticFiles(directory=PDF_DIR), name="pdfs")
 
 @app.get("/")
 def welcome():
