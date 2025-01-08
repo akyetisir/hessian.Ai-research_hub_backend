@@ -91,38 +91,155 @@ def get_all_papers(page: int = 1, page_size: int = 15):
     
     
 #Get-Anfrage für alle Paper die zu einem author gehören
-@app.get("/papers/author/{author_name}", response_model=List[Paper])
-def get_papers_via_author(author_name: str):
-    papers_cursor = papers_collection.find({"authors": author_name})
+@app.get("/papers/author/{author_name}")
+def get_papers_via_author(
+    author_name: str,
+    page: int = 1,
+    page_size: int = 15
+):
+    """
+    Liefert alle Papers für einen bestimmten Autor,
+    paginiert nach 'page' und 'page_size'.
+    """
+
+    # Anzahl Einträge überspringen
+    skip = (page - 1) * page_size
+    limit = page_size
+
+    query = {
+        "authors": {
+            "$regex": f".*{author_name}.*",  
+            "$options": "i"
+        }
+    }
+
+    # Gesamtanzahl (um im Frontend z. B. die letzte Seite zu berechnen)
+    total_count = papers_collection.count_documents(query)
+
+    # Falls kein Dokument für diesen Autor existiert
+    if total_count == 0:
+        raise HTTPException(
+            status_code=404, 
+            detail=f"No papers found for author {author_name}."
+        )
+
+    # Nur einen Teil (page_size) zurückliefern
+    papers_cursor = (
+        papers_collection
+        .find(query)
+        .skip(skip)
+        .limit(limit)
+    )
     papers = list(papers_cursor)
 
+    # Optional: Wenn 'page' so hoch ist, dass keine Ergebnisse mehr kommen,
+    # könnte man hier ebenfalls 404 oder eine leere Liste zurückgeben.
     if not papers:
-        raise HTTPException(status_code=404, detail=f"No papers found for author {author_name}.")
+        raise HTTPException(
+            status_code=404,
+            detail=f"No papers found for author {author_name} on page {page}."
+        )
 
-    return [dict_to_paper(paper_dict) for paper_dict in papers]
+    return {
+        "total_count": total_count,
+        "page": page,
+        "page_size": page_size,
+        "papers": [dict_to_paper(paper_dict) for paper_dict in papers]
+    }
 
     
 #Get-Anfrage für alle Paper mit einem speziefischen Tag    
 @app.get("/papers/tag/{tag}", response_model=List[Paper])
-def getPapersViaTag(tag : str):
-    papers_cursor = papers_collection.find({"tags": tag}) 
+def getPapersViaTag(
+    tag : str,
+    page: int = 1,
+    page_size: int = 15
+):
+    skip = (page - 1) * page_size
+    limit = page_size
+
+    # Gesamtanzahl (um im Frontend z. B. die letzte Seite zu berechnen)
+    total_count = papers_collection.count_documents({"tag": tag})
+
+    if total_count == 0:
+        raise HTTPException(
+            status_code=404, 
+            detail=f"No papers found for tag {tag}."
+        )
+
+    papers_cursor = (
+        papers_collection
+        .find({"tag": tag})
+        .skip(skip)
+        .limit(limit)
+    )
     papers = list(papers_cursor)
 
     if not papers:
         raise HTTPException(status_code=404, detail=f"no papers found for tag {tag}.")
     
-    return [dict_to_paper(paper_dict) for paper_dict in papers]
+    return {
+        "total_count": total_count,
+        "page": page,
+        "page_size": page_size,
+        "papers": [dict_to_paper(paper_dict) for paper_dict in papers]
+    }
     
 #Get-Anfrage für alle Paper mit einem speziefischen Tag    
-@app.get("/papers/title/{title}", response_model=List[Paper])
-def getPapersViaTitle(title : str):
-    papers_cursor = papers_collection.find({"title": title}) 
+@app.get("/papers/title/{title}")
+def get_papers_via_title(
+    title: str,
+    page: int = 1,
+    page_size: int = 15
+):
+    """
+    Liefert alle Papers mit 'title'-Substring (teilweise Suche),
+    paginiert nach 'page' und 'page_size'.
+    Groß-/Kleinschreibung wird ignoriert (case-insensitive).
+    """
+
+    skip = (page - 1) * page_size
+    limit = page_size
+
+    # Regex für Teiltextsuche (.*title.* => "title" kommt irgendwo im String vor)
+    # "$options": "i" => case-insensitive
+    query = {
+        "title": {
+            "$regex": f".*{title}.*",  
+            "$options": "i"
+        }
+    }
+
+    total_count = papers_collection.count_documents(query)
+
+    if total_count == 0:
+        raise HTTPException(
+            status_code=404, 
+            detail=f"No papers found for title containing '{title}'."
+        )
+
+    papers_cursor = (
+        papers_collection
+        .find(query)
+        .skip(skip)
+        .limit(limit)
+    )
     papers = list(papers_cursor)
 
+    # Optional: Wenn 'page' so hoch ist, dass keine Ergebnisse mehr kommen:
     if not papers:
-        raise HTTPException(status_code=404, detail=f"no papers found for tag {title}.")
-    
-    return [dict_to_paper(paper_dict) for paper_dict in papers]
+        raise HTTPException(
+            status_code=404,
+            detail=f"No papers found for title containing '{title}' on page {page}."
+        )
+
+    return {
+        "total_count": total_count,
+        "page": page,
+        "page_size": page_size,
+        "papers": [dict_to_paper(paper_dict) for paper_dict in papers]
+    }
+
     
     
 
