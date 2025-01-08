@@ -3,10 +3,40 @@ import httpx
 import json
 from xml.etree import ElementTree
 from datetime import datetime
+import re
 
 
 with open("authors.json", "r", encoding="utf-8") as f:
     authors_dict = json.load(f)
+
+
+
+def sanitize_filename(title, max_length=50):
+    """
+    Bereinigt einen Titel für die Verwendung als Dateiname:
+    - Entfernt unzulässige Zeichen
+    - Ersetzt Leerzeichen durch Unterstriche
+    - Kürzt den Titel auf die maximal zulässige Länge
+    """
+    # Unerlaubte Zeichen durch "_" ersetzen
+    sanitized = re.sub(r'[\/:*?"<>|]', '_', title)
+    # Leerzeichen durch Unterstriche ersetzen
+    sanitized = sanitized.replace(' ', '_')
+    # Optional: Unicode-Zeichen oder andere unlesbare Zeichen entfernen
+    sanitized = re.sub(r'[^\w\-_.]', '', sanitized)
+    # Kürzen auf max_length Zeichen
+    return sanitized[:max_length].strip()
+
+def generate_unique_filename(folder, filename, extension):
+    """
+    Prüft, ob ein Dateiname bereits existiert, und fügt bei Bedarf einen Zähler hinzu.
+    """
+    base_filename = filename
+    counter = 1
+    while os.path.exists(os.path.join(folder, f"{filename}{extension}")):
+        filename = f"{base_filename}_{counter}"
+        counter += 1
+    return os.path.join(folder, f"{filename}{extension}")
 
 
 
@@ -90,8 +120,8 @@ def fetch_papers(author: str, max_results: int = 100):
                         # Titel für den PDF-Dateinamen extrahieren
                         title = entry.find('atom:title', namespaces).text
                         # ungültige Zeichen ersetzen
-                        safe_title = title[:50].replace('/', '_').replace(' ', '_')
-                        pdf_filename = os.path.join(author_pdf_folder, f"{safe_title}.pdf")
+                        safe_title = sanitize_filename(title)
+                        pdf_filename = generate_unique_filename(author_pdf_folder, safe_title, ".pdf")
 
                         # PDF speichern
                         with open(pdf_filename, "wb") as pdf_file:
@@ -122,3 +152,7 @@ if __name__ == "__main__":
             all_downloaded_pdfs.extend(downloaded_pdfs)
 
     print("\nSkript beendet. Alle gefundenen PDFs liegen in den jeweiligen Unterordnern unter 'pdfs/'.")
+
+
+
+
