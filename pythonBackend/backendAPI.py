@@ -69,15 +69,24 @@ class Paper(BaseModel):
     #tags: list[str]
 
 
-@app.get("/papers/all", response_model=List[Paper])
-def get_all_papers():
-    papers_cursor = papers_collection.find()
+@app.get("/papers/all")
+def get_all_papers(page: int = 1, page_size: int = 15):
+    skip = (page - 1) * page_size
+    limit = page_size
+
+    # Abfrage
+    papers_cursor = papers_collection.find().skip(skip).limit(limit)
     papers = list(papers_cursor)
 
-    if not papers:
-        raise HTTPException(status_code=404, detail="No papers found.")
+    # Gesamtanzahl
+    total_count = papers_collection.count_documents({})
 
-    return [dict_to_paper(paper_dict) for paper_dict in papers]
+    return {
+        "total_count": total_count,
+        "page": page,
+        "page_size": page_size,
+        "papers": [dict_to_paper(paper_dict) for paper_dict in papers]
+    }
 
     
     
