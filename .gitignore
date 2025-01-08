@@ -29,3 +29,6 @@ authors.json
 
 # alle pdfs
 *.pdf
+
+# jsons
+*.json
