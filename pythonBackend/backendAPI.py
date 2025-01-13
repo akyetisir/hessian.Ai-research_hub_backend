@@ -66,6 +66,7 @@ class Paper(BaseModel):
     content: str
     journal: Optional[str] = None
     path: Optional[str] = None
+    path_image: Optional[str] = None
     #tags: list[str]
 
 
@@ -258,6 +259,7 @@ def dict_to_paper(paper_dict: dict) -> Paper:
         views=paper_dict.get('views', 0),
         content=paper_dict.get('content', 'unknown'),
         journal=paper_dict.get('journal', 'unknown'),
-        path=paper_dict.get('path','no PDF existing')
+        path=paper_dict.get('path','no PDF existing'),
+        path_image=paper_dict.get('path_image', 'no image found')
     )
 
