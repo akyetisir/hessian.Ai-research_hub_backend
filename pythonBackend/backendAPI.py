@@ -24,6 +24,7 @@ papers_collection = db["papers"]  #papers collection
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PDF_DIR = os.path.join(BASE_DIR, "pdfs")
+IMAGE_DIR = os.path.join(BASE_DIR, "images")
 
 print("BASE_DIR:", BASE_DIR)
 print("PDF_DIR:", PDF_DIR)
@@ -43,7 +44,14 @@ app.add_middleware(
 # "/pdfs" wird die URL, unter der die Dateien abrufbar sind.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PDF_DIR = os.path.join(BASE_DIR, "..", "pdfs")
+print("PDF_DIR", PDF_DIR)
 app.mount("/pdfs", StaticFiles(directory=PDF_DIR), name="pdfs")
+
+# "images" ist der lokale Ordner;
+IMAGE_DIR = os.path.join(BASE_DIR, "..","images") 
+print("IMAGE_DIR", IMAGE_DIR)
+app.mount("/images", StaticFiles(directory=IMAGE_DIR), name="images")
+
 
 @app.get("/")
 def welcome():
@@ -262,4 +270,3 @@ def dict_to_paper(paper_dict: dict) -> Paper:
         path=paper_dict.get('path','no PDF existing'),
         path_image=paper_dict.get('path_image', 'no image found')
     )
-
