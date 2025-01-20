@@ -12,9 +12,10 @@ pythonBackend/.DS_Store
 
 .env
 
-# ignoriere die pdfs und xmls
+# ignoriere die pdfs, xmls und Bilder
 pythonBackend/pdfs/
 pythonBackend/xmls/
+images/
 *.xml
 *.pdf
 
