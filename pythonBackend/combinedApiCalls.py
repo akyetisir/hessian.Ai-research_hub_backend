@@ -11,6 +11,8 @@ from typing import List, Dict
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Abfragen von ArXive, Pubmed und Unpaywall
+
 # --------------------------------------------------------------------------
 # Konfiguration & globale Variablen
 # --------------------------------------------------------------------------
