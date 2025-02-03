@@ -36,3 +36,6 @@ authors.json
 *.xml
 
 alte_pdfsUndXmls/
+
+# unpaywall und pubmed Ergebnisse des API Calls
+combined_results.json

@@ -1,104 +1,123 @@
 [
   {
-    "uid": "34658661",
-    "pubdate": "2022",
-    "epubdate": "2021 Oct 13",
-    "source": "Inf Syst Front",
+    "uid": "38216691",
+    "pubdate": "2024 Apr",
+    "epubdate": "2024 Jan 12",
+    "source": "Nat Hum Behav",
     "authors": [
       {
-        "name": "Wendt C",
+        "name": "Thomas T",
         "authtype": "Author",
         "clusterid": ""
       },
       {
-        "name": "Adam M",
+        "name": "Straub D",
         "authtype": "Author",
         "clusterid": ""
       },
       {
-        "name": "Benlian A",
+        "name": "Tatai F",
         "authtype": "Author",
         "clusterid": ""
       },
       {
-        "name": "Kraus S",
+        "name": "Shene M",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Tosik T",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Rothkopf CA",
         "authtype": "Author",
         "clusterid": ""
       }
     ],
-    "lastauthor": "Kraus S",
-    "title": "Let's Connect to Keep the Distance: How SMEs Leverage Information and Communication Technologies to Address the COVID-19 Crisis.",
-    "sorttitle": "let s connect to keep the distance how smes leverage information and communication technologies to address the covid 19 crisis",
-    "volume": "24",
+    "lastauthor": "Rothkopf CA",
+    "title": "Modelling dataset bias in machine-learned theories of economic decision-making.",
+    "sorttitle": "modelling dataset bias in machine learned theories of economic decision making",
+    "volume": "8",
     "issue": "4",
-    "pages": "1061-1079",
+    "pages": "679-691",
     "lang": [
       "eng"
     ],
-    "nlmuniqueid": "101685853",
-    "issn": "1387-3326",
-    "essn": "1572-9419",
+    "nlmuniqueid": "101697750",
+    "issn": "",
+    "essn": "2397-3374",
     "pubtype": [
       "Journal Article"
     ],
-    "recordstatus": "PubMed",
+    "recordstatus": "PubMed - indexed for MEDLINE",
     "pubstatus": "256",
     "articleids": [
       {
         "idtype": "pubmed",
         "idtypen": 1,
-        "value": "34658661"
+        "value": "38216691"
       },
       {
         "idtype": "pmc",
         "idtypen": 8,
-        "value": "PMC8510881"
+        "value": "PMC11045447"
       },
       {
         "idtype": "pmcid",
         "idtypen": 5,
-        "value": "pmc-id: PMC8510881;"
+        "value": "pmc-id: PMC11045447;"
       },
       {
         "idtype": "doi",
         "idtypen": 3,
-        "value": "10.1007/s10796-021-10210-z"
+        "value": "10.1038/s41562-023-01784-6"
       },
       {
         "idtype": "pii",
         "idtypen": 4,
-        "value": "10210"
+        "value": "10.1038/s41562-023-01784-6"
       }
     ],
     "history": [
       {
-        "pubstatus": "accepted",
-        "date": "2021/09/16 00:00"
+        "pubstatus": "received",
+        "date": "2022/10/19 00:00"
       },
       {
-        "pubstatus": "pubmed",
-        "date": "2021/10/19 06:00"
+        "pubstatus": "accepted",
+        "date": "2023/11/14 00:00"
       },
       {
         "pubstatus": "medline",
-        "date": "2021/10/19 06:01"
+        "date": "2024/04/26 00:52"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2024/01/13 00:42"
       },
       {
         "pubstatus": "entrez",
-        "date": "2021/10/18 08:51"
+        "date": "2024/01/12 23:21"
       },
       {
         "pubstatus": "pmc-release",
-        "date": "2021/10/13 00:00"
+        "date": "2024/01/12 00:00"
       }
     ],
     "references": [],
     "attributes": [
       "Has Abstract"
     ],
-    "pmcrefcount": 81,
-    "fulljournalname": "Information systems frontiers : a journal of research and innovation",
-    "elocationid": "doi: 10.1007/s10796-021-10210-z",
+    "pmcrefcount": 76,
+    "fulljournalname": "Nature human behaviour",
+    "elocationid": "doi: 10.1038/s41562-023-01784-6",
     "doctype": "citation",
     "srccontriblist": [],
     "booktitle": "",
@@ -114,1042 +133,1257 @@
     "docdate": "",
     "bookname": "",
     "chapter": "",
-    "sortpubdate": "2022/01/01 00:00",
-    "sortfirstauthor": "Wendt C",
+    "sortpubdate": "2024/04/01 00:00",
+    "sortfirstauthor": "Thomas T",
     "vernaculartitle": ""
   },
   {
-    "created": "2024-06-09T04:54:03.316273+00:00",
-    "modified": "2024-06-09T05:11:24.044063+00:00",
-    "id": 11529996,
-    "conceptrecid": "11529995",
-    "doi": "10.5281/zenodo.11529996",
-    "conceptdoi": "10.5281/zenodo.11529995",
-    "doi_url": "https://doi.org/10.5281/zenodo.11529996",
-    "metadata": {
-      "title": "SIMPLIFYING DIGITAL TRANSFORMATION PROCESSES",
-      "doi": "10.5281/zenodo.11529996",
-      "publication_date": "2024-06-09",
-      "description": "<p><span>Ushbu maqola biznesdagi raqamli transformatsiya jarayonlarida soddalashtirishning muhim rolini ko'rib chiqadi. U raqamli tashabbuslarni qabul qilishda tashkilotlar duch keladigan qiyinchiliklarni ta'kidlaydi va murakkablik to'siqlarini bartaraf etish strategiyasi sifatida soddalashtirishni ta'kidlaydi. Adabiyotlarni keng qamrovli tahlil qilish va amaliy tadqiqotlarni o'rganish orqali maqola soddalashtirish raqamli transformatsiyani qanday tezlashtirishi, samaradorlik, innovatsiyalar va raqobatdosh ustunlikka olib kelishini tushuntiradi. U turli sohalardagi muvaffaqiyatli raqamli transformatsiyalar misollaridan kelib chiqib, AT infratuzilmasini ratsionalizatsiya qilish va hamkorlik madaniyatini oshirish kabi soddalashtirishning asosiy strategiyalari haqida tushuncha beradi. Umuman olganda, maqola raqamli transformatsiyaning murakkabliklarini yo&lsquo;lga qo&lsquo;yish va bugungi raqamli iqtisodiyotda barqaror o&lsquo;sishga erishishga intilayotgan korxonalar uchun qimmatli tushunchalarni taqdim etadi.</span></p>",
-      "access_right": "open",
-      "creators": [
-        {
-          "name": "T.A.Mamadjanova",
-          "affiliation": "TISU Iqtisodiyot kafedrasi mudiri PhD dotsent"
-        },
-        {
-          "name": "Ahmedov Alim Babaniyazovich",
-          "affiliation": "Termiz davlat universiteti \"Iqtisodiyot, biznes boshqaruvi va ekonometriya\" kafedrasi o'qituvchisi"
-        }
-      ],
-      "keywords": [
-        "Raqamli transformatsiya, soddalashtirish, texnologiyani qabul qilish, samaradorlik, innovatsiya."
-      ],
-      "references": [
-        "1.\tMcKinsey & Company. (2021). Soddalashtirish: raqamli transformatsiya muvaffaqiyatining asosiy omili.",
-        "2.\tBughin, J., Catlin, T., Hirt, M., & Willmott, P. (2018). Nima uchun raqamli strategiyalar muvaffaqiyatsizlikka uchraydi. Garvard biznes sharhi.",
-        "3.\tVesterman, G., Bonnet, D. va McAfee, A. (2014). Raqamli yetakchi: texnologiyani biznes transformatsiyasiga aylantirish. Garvard Business Review Press.",
-        "4.\tVesterman, G., Bonnet, D. va McAfee, A. (2014). Raqamli yetakchi: texnologiyani biznes transformatsiyasiga aylantirish. *Garvard Business Review Press*.",
-        "5.\tKane, G. C., Palmer, D., Fillips, A. N., Kiron, D. va Bakli, N. (2015). Raqamli transformatsiyani texnologiya emas, balki strategiya boshqaradi. *MIT Sloan Management Review va Deloitte University Press*.",
-        "6.\t Sebastyan, I. M., Ross, J. V., Beath, C. M., Moker, M., Moloney, K. G. va Fonstad, N. O. (2017). Qadimgi yirik kompaniyalar raqamli transformatsiyani qanday yo'lga qo'yishadi. *MIS choraklik ijrochi, 16*(3), 197-213.",
-        "7.\t Fitsgerald, M., Kruschwitz, N., Bonnet, D. va Welch, M. (2013). Raqamli texnologiyani qabul qilish: yangi strategik imperativ. * MIT Sloan Management Review, 55 * (2), 1-12.",
-        "8.\t Berman, S.J. (2012). Raqamli transformatsiya: yangi biznes modellarini yaratish imkoniyatlari. *Strategiya va yetakchilik, 40*(2), 16-24.",
-        "9.\t Hess, T., Matt, C., Benlian, A., & Wiesb\u00f6ck, F. (2016). Raqamli transformatsiya strategiyasini shakllantirish variantlari. *MIS choraklik ijrochi, 15*(2).",
-        "10.\t Deri, K., Sebastyan, I. M. va van der Meulen, N. (2017). Raqamli ish joyi raqamli innovatsiyaning kalitidir. *MIS choraklik ijrochi, 16*(2), 135-152."
-      ],
-      "language": "uzb",
-      "resource_type": {
-        "title": "Journal article",
-        "type": "publication",
-        "subtype": "article"
-      },
-      "journal": {
-        "issue": "6",
-        "pages": "33-40",
-        "title": "\u041c\u0415\u0414\u0418\u0426\u0418\u041d\u0410, \u041f\u0415\u0414\u0410\u0413\u041e\u0413\u0418\u041a\u0410 \u0418 \u0422\u0415\u0425\u041d\u041e\u041b\u041e\u0413\u0418\u042f: \u0422\u0415\u041e\u0420\u0418\u042f \u0418 \u041f\u0420\u0410\u041a\u0422\u0418\u041a\u0410",
-        "volume": "2"
-      },
-      "license": {
-        "id": "cc-by-4.0"
-      },
-      "relations": {
-        "version": [
-          {
-            "index": 0,
-            "is_last": true,
-            "parent": {
-              "pid_type": "recid",
-              "pid_value": "11529995"
-            }
-          }
-        ]
-      }
-    },
-    "title": "SIMPLIFYING DIGITAL TRANSFORMATION PROCESSES",
-    "links": {
-      "self": "https://zenodo.org/api/records/11529996",
-      "self_html": "https://zenodo.org/records/11529996",
-      "doi": "https://doi.org/10.5281/zenodo.11529996",
-      "self_doi": "https://doi.org/10.5281/zenodo.11529996",
-      "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11529996",
-      "parent": "https://zenodo.org/api/records/11529995",
-      "parent_html": "https://zenodo.org/records/11529995",
-      "parent_doi": "https://doi.org/10.5281/zenodo.11529995",
-      "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11529995",
-      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:11529996/manifest",
-      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:11529996/sequence/default",
-      "files": "https://zenodo.org/api/records/11529996/files",
-      "media_files": "https://zenodo.org/api/records/11529996/media-files",
-      "thumbnails": {
-        "10": "https://zenodo.org/api/iiif/record:11529996:33_40_T_A_Mamadjanova_%D0%9C%D0%95%D0%94%D0%98%D0%A6%D0%98%D0%9D%D0%90%2C_%D0%9F%D0%95%D0%94%D0%90%D0%93%D0%9E%D0%93%D0%98%D0%9A%D0%90_.pdf/full/^10,/0/default.jpg",
-        "50": "https://zenodo.org/api/iiif/record:11529996:33_40_T_A_Mamadjanova_%D0%9C%D0%95%D0%94%D0%98%D0%A6%D0%98%D0%9D%D0%90%2C_%D0%9F%D0%95%D0%94%D0%90%D0%93%D0%9E%D0%93%D0%98%D0%9A%D0%90_.pdf/full/^50,/0/default.jpg",
-        "100": "https://zenodo.org/api/iiif/record:11529996:33_40_T_A_Mamadjanova_%D0%9C%D0%95%D0%94%D0%98%D0%A6%D0%98%D0%9D%D0%90%2C_%D0%9F%D0%95%D0%94%D0%90%D0%93%D0%9E%D0%93%D0%98%D0%9A%D0%90_.pdf/full/^100,/0/default.jpg",
-        "250": "https://zenodo.org/api/iiif/record:11529996:33_40_T_A_Mamadjanova_%D0%9C%D0%95%D0%94%D0%98%D0%A6%D0%98%D0%9D%D0%90%2C_%D0%9F%D0%95%D0%94%D0%90%D0%93%D0%9E%D0%93%D0%98%D0%9A%D0%90_.pdf/full/^250,/0/default.jpg",
-        "750": "https://zenodo.org/api/iiif/record:11529996:33_40_T_A_Mamadjanova_%D0%9C%D0%95%D0%94%D0%98%D0%A6%D0%98%D0%9D%D0%90%2C_%D0%9F%D0%95%D0%94%D0%90%D0%93%D0%9E%D0%93%D0%98%D0%9A%D0%90_.pdf/full/^750,/0/default.jpg",
-        "1200": "https://zenodo.org/api/iiif/record:11529996:33_40_T_A_Mamadjanova_%D0%9C%D0%95%D0%94%D0%98%D0%A6%D0%98%D0%9D%D0%90%2C_%D0%9F%D0%95%D0%94%D0%90%D0%93%D0%9E%D0%93%D0%98%D0%9A%D0%90_.pdf/full/^1200,/0/default.jpg"
-      },
-      "archive": "https://zenodo.org/api/records/11529996/files-archive",
-      "archive_media": "https://zenodo.org/api/records/11529996/media-files-archive",
-      "latest": "https://zenodo.org/api/records/11529996/versions/latest",
-      "latest_html": "https://zenodo.org/records/11529996/latest",
-      "versions": "https://zenodo.org/api/records/11529996/versions",
-      "draft": "https://zenodo.org/api/records/11529996/draft",
-      "reserve_doi": "https://zenodo.org/api/records/11529996/draft/pids/doi",
-      "access_links": "https://zenodo.org/api/records/11529996/access/links",
-      "access_grants": "https://zenodo.org/api/records/11529996/access/grants",
-      "access_users": "https://zenodo.org/api/records/11529996/access/users",
-      "access_request": "https://zenodo.org/api/records/11529996/access/request",
-      "access": "https://zenodo.org/api/records/11529996/access",
-      "communities": "https://zenodo.org/api/records/11529996/communities",
-      "communities-suggestions": "https://zenodo.org/api/records/11529996/communities-suggestions",
-      "requests": "https://zenodo.org/api/records/11529996/requests"
-    },
-    "updated": "2024-06-09T05:11:24.044063+00:00",
-    "recid": "11529996",
-    "revision": 6,
-    "files": [
+    "uid": "38028664",
+    "pubdate": "2023",
+    "epubdate": "2023 Nov 13",
+    "source": "Front Artif Intell",
+    "authors": [
       {
-        "id": "ce45b676-8db4-495d-89f2-9cf566fade0b",
-        "key": "33_40_T_A_Mamadjanova_\u041c\u0415\u0414\u0418\u0426\u0418\u041d\u0410,_\u041f\u0415\u0414\u0410\u0413\u041e\u0413\u0418\u041a\u0410_.pdf",
-        "size": 1147469,
-        "checksum": "md5:f2817e3d4853e857818ac10d624a418a",
-        "links": {
-          "self": "https://zenodo.org/api/records/11529996/files/33_40_T_A_Mamadjanova_\u041c\u0415\u0414\u0418\u0426\u0418\u041d\u0410,_\u041f\u0415\u0414\u0410\u0413\u041e\u0413\u0418\u041a\u0410_.pdf/content"
-        }
+        "name": "Yan S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Odom P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Pasunuri R",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Natarajan S",
+        "authtype": "Author",
+        "clusterid": ""
       }
     ],
-    "swh": {},
-    "owners": [
+    "lastauthor": "Natarajan S",
+    "title": "Learning with privileged and sensitive information: a gradient-boosting approach.",
+    "sorttitle": "learning with privileged and sensitive information a gradient boosting approach",
+    "volume": "6",
+    "issue": "",
+    "pages": "1260583",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
       {
-        "id": "512919"
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "38028664"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC10679679"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC10679679;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2023.1260583"
       }
     ],
-    "status": "published",
-    "stats": {
-      "downloads": 87,
-      "unique_downloads": 62,
-      "views": 62,
-      "unique_views": 57,
-      "version_downloads": 87,
-      "version_unique_downloads": 62,
-      "version_unique_views": 57,
-      "version_views": 62
-    },
-    "state": "done",
-    "submitted": true
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2023/07/18 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2023/10/20 00:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2023/11/29 18:43"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2023/11/29 18:42"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2023/11/29 17:16"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2023/11/13 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 53,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2023.1260583",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/11/13 00:00",
+    "sortfirstauthor": "Yan S",
+    "vernaculartitle": ""
   },
   {
-    "created": "2023-08-15T10:29:58.255997+00:00",
-    "modified": "2024-07-11T14:19:30.648304+00:00",
-    "id": 8216014,
-    "conceptrecid": "8216013",
-    "doi": "10.5281/zenodo.8216014",
-    "conceptdoi": "10.5281/zenodo.8216013",
-    "doi_url": "https://doi.org/10.5281/zenodo.8216014",
-    "metadata": {
-      "title": "Impact of Firm Size on Digitalization of Management Control: Evidence from Morocco",
-      "doi": "10.5281/zenodo.8216014",
-      "publication_date": "2023-08-04",
-      "description": "<p>For several years, and especially during the health crisis caused by the Covid-19 pandemic, digitalization has become one of the major challenges for all companies. In this regard, several research works have been carried out to understand the possible effects of digitalization on some areas of management, such as finance (Vasarhelyi et al. 2015, Pan and Seow 2016, etc.), work organization and jobs (Dorn, 2017, etc.), Human resources (Audrin et Davoine, 2017), etc. Unfortunately, this type of work is still absent in the field of management control (Quatrone 2016; M&ouml;ller et al. 2020). In this context, this article, based on a survey carried out among forty-two Moroccan companies, aims to answer two main questions. First, how can we judge the degree of management control digitalization in the studied companies? Second, does the firm size impact this digitalization? The results obtained show that the management control digitalization is considered to be &quot;moderate&quot; in studied companies. It has also been shown that firm size does not have a statistically significant impact on this digitalization.</p>",
-      "access_right": "open",
-      "creators": [
-        {
-          "name": "Azzouz Elhamma",
-          "affiliation": "Ibn Tofail University, Kenitra, Morocco",
-          "orcid": "0009-0003-9578-1814"
-        },
-        {
-          "name": "Rajae El-Moumane",
-          "affiliation": "Ibn Tofail University, Kenitra, Morocco"
-        }
-      ],
-      "keywords": [
-        "Digitalization",
-        "Management control",
-        "Firm size",
-        "SMEs"
-      ],
-      "references": [
-        "Al-Htaybat K., von Alberti-Alhtaybat. L. (2017). Big data and corporate reporting: impacts and paradoxes, Accounting, auditing & accountability journal, 30 (4), 850-873.",
-        "Audrin B., Davoine E. (2017),  La fonction RH face \u00e0 la num\u00e9risation des organisations : le cas des outils de communication num\u00e9rique, Management & Avenir  (N\u00b0 92), 15-39.",
-        "Banque de France (2018), L'impact des TIC et de la digitalisation sur la productivit\u00e9 et la part du travail dans la valeur ajout\u00e9e : enseignements \u00e0 partir d'un \u00e9chantillon d'entreprises fran\u00e7aises. Document de travail n\u00b0785.",
-        "Becker, W. and Nolte, M. (2019), Die Rolle des Controllings im Rahmen der Digitalisierung Funktionen, Aufgaben und Instrumente, in Becker, W., Eierle, B., Fliaster, A., Ivens, B., Leischnig, A., Pflaum, A. and Sucky, E. (eds) Gesch\u00e4ftsmodelle in der digitalen Welt, Wiesbaden, Springer Fachmedien. 75\u201389.",
-        "Benedetto-Meyer M. et Boboc A. (2019), Accompagner la \u00ab transformation digitale \u00bb : du flou des discours \u00e0 la r\u00e9alit\u00e9 des mises en \u0153uvre, Travail et emploi 2019/3 (n\u00b0 159), 93-118.",
-        "Bos C. (2018), La transformation digitale, vers un management strat\u00e9gique augment\u00e9?, C\u00e9line Bos, Ea Conseil & formation, DIF 2018, Lyon.",
-        "Bpifrance Le Lab, Enqu\u00eate (2017), \u00ab Histoire d'incompr\u00e9hension \u00bb, f\u00e9vrier-avril 2017. https://lelab.bpifrance.fr/get_pdf/1022/etude_dirigeantsfaceaudigital_bpifrancelelab.pdf",
-        "Brasseur M. et Biaz F. (2018), L'impact de la digitalisation des organisations sur le rapport au travail : entre ali\u00e9nation et \u00e9mancipation, Question(s) de management 2018/2 (n\u00b0 21),143-155.",
-        "Cavelius F., Endenich Ch. et Zicari A. (2018). L'impact de la digitalisation sur le role du controleur de gestion. Transitions num\u00e9riques et informations comptables, May, Nantes, France. pp.cd-rom. ffhal-01907810f.",
-        "Chambre de commerce des \u00c9tats-Unis (2020), Small Business Coronavirus Impact Poll \u2013 June https://www.uschamber.com/report/small-business-coronavirus-impact-poll-june",
-        "Chenhall R.H. (2003), Management control systems design within its organizational context; findings from contingency-based research and directions for the future, Accounting, Organizations and Society, Vol. 28, n\u00b02/3, p. 127-168.",
-        "Cohen, B., Amor\u00f3s, J. E. & Lundyd, L. (2017). The generative potential of emerging technology to support startups and new ecosystems. Business Horizon, 60 (6), pp. 741-745.",
-        "Connected Commerce Council (3C)  (2020), Digital Safety Net Helps Small Businesses Survive During COVID-19, https://connectedcouncil.org/digital-safety-net-helps-small-businesses-survive-during-covid-19/",
-        "Deloitte report (2016), Economie num\u00e9rique : Le digital, une opportunit\u00e9 pour les PME fran\u00e7aises,https://www2.deloitte.com/content/dam/Deloitte/fr/Documents/strategy/deloitte_digital-opportunite-pme-francaises_jan2017.pdf",
-        "Dorn D. (2017), La mont\u00e9e en puissance des machines : comment l'ordinateur a chang\u00e9 le travail, Revue fran\u00e7aise des affaires sociales, 1, pp. 35-63.",
-        "Elhamma A. (2012), The Relationship between Firm Size, Activity Based Costing and Performance: An Application on Moroccan Enterprises, Journal of Accounting, Business and Management (JABM), 19 (1).",
-        "Elhamma, A. (2011), Impact de la taille sur le contenu des tableaux de bord dans les entreprises au Maroc : r\u00e9sultats d'une \u00e9tude empirique, Revue Marocaine de Recherche en Management et Marketing, N\u00b0 4-5, pp. 317-329.",
-        "Elhamma, A. and Lassaad, BM. (2017), Liens entre participation budg\u00e9taire, taille et performance: cas des entreprises au Maroc, Revue Congolaise de Gestion, 24 (2), pp. 43-62.",
-        "Elhamma, A. (2015), The relationship between budgetary evaluation, firm size and performance, Journal of Management Development, Vol. 34 No. 8, pp. 973-986.",
-        "GoDaddy (2020), The 2020 Global Entrepreneurship Survey, https://www.techrepublic.com/article/feeling-optimistic-71-of-microbusiness-owners-expect-to-recover-from-covid-19-financial-hit-within-a-year/",
-        "Heimel, J. and M\u00fcller, M. (2019) 'Controlling 4.0', in Erner, M. (ed) Management 4.0 \u2013 Unternehmensf\u00fchrung im digitalen Zeitalter, Berlin, Springer, pp. 389\u2013430.",
-        "Jorissen A., Devinck S. et A.Vanstraelen (1997), Planning and control: are these necessary tools for success? Empirical results of survey and case research on small and medium-sized enterprises compared with research on large enterprises, Congr\u00e8s de l'IAAER, Paris.",
-        "Kalika M. (1987), Structures d'entreprises, r\u00e9alit\u00e9s, d\u00e9terminants, performances, Economica ;",
-        "Khandwalla P. (1977), The Design of Organizations, Harcourt Brace Jovanovich",
-        "Li, L., Su, F., Zhang, W. & Mao, J. Y. (2018). Digital transformation by SME entrepreneurs: A capability perspective. Information Systems Journal, 28 (6), pp. 1129-1157.",
-        "Matt, C., Hess, T. & Benlian, A. (2015). Digital Transformation Strategies. Business & Information Systems Engineering, 57 (5), 339-343.",
-        "Metais-Wiersch et Autissier (2016), la transformation digitale des entreprises. Les bonnes pratiques, \u00e9dition Eyrolles.",
-        "Mintzberg H. (1982), Structure et dynamique des organisations, Les Editions d'Organisation.",
-        "M\u00f6ller K., Sch\u00e4fer U. and Verbeeten F. (2020), Digitalization in management accounting and control: an editorial, Journal of Management Control (2020) 31,1\u20138.",
-        "Pan, G., Seow, P. (2016), Preparing accounting graduates for digital revolution: a critical review of information technology competencies and skills development Journal of education for business, 91 (3), 166-175.",
-        "Quattrone, P. (2016). Management accounting goes digital: Will the move make it wiser? Management Accounting Research 31,118-122.",
-        "Ross, J. W., Beath, C. M., Sebastian, I., M. (2017). Digitized \u2260 Digital. MIT CISR Research Briefings, 18(10), 1-3.",
-        "Sch\u00f6n, D. (2018) Planung und Reporting im BI-gest\u00fctzten Controlling, Wiesbaden, Springer Fachmedien.",
-        "Sestino A.  Irene M. Piper L.  et Guido G. (2020),  Internet of Things and Big Data as enablers for business digitalization strategies, Technovation, Volume 98.",
-        "The Economist Intelligence Unit report (2019), 2019: the Year of Digital Decisions, https://assets1.dxc.technology/digital_transformation/downloads/Digital_Decisions_Survey_Report.pdf",
-        "Trabucchi, D., Buganza, T. et Pellizzoni, E. (2017). Give away your digital services: Leveraging big data to capture value. Research-Technology Management, 60 (2), 43-52.",
-        "Vasarhelyi, M. A., Kogan, A., Tuttle, B. M. (2015). Big Data in Accounting: An Overview Accounting Horizons. 29(2), 381-396.",
-        "We Are Social et Hootsuite (2021), Digital 2021 global overview report, https://wearesocial.com/digital-2021",
-        "Westerman G., Bonnett D. et McAffee A. (2014), Gagner avec le digital, Paris, Editions Diatein."
-      ],
-      "language": "eng",
-      "resource_type": {
-        "title": "Journal article",
-        "type": "publication",
-        "subtype": "article"
-      },
-      "journal": {
-        "issue": "6",
-        "pages": "412-424",
-        "title": "International Journal of Management, Accounting and Economics",
-        "volume": "10"
-      },
-      "alternate_identifiers": [
-        {
-          "identifier": "https://dorl.net/dor/20.1001.1.23832126.2023.10.6.3.6"
-        }
-      ],
-      "license": {
-        "id": "cc-by-4.0"
-      },
-      "relations": {
-        "version": [
-          {
-            "index": 0,
-            "is_last": true,
-            "parent": {
-              "pid_type": "recid",
-              "pid_value": "8216013"
-            }
-          }
-        ]
-      }
-    },
-    "title": "Impact of Firm Size on Digitalization of Management Control: Evidence from Morocco",
-    "links": {
-      "self": "https://zenodo.org/api/records/8216014",
-      "self_html": "https://zenodo.org/records/8216014",
-      "doi": "https://doi.org/10.5281/zenodo.8216014",
-      "self_doi": "https://doi.org/10.5281/zenodo.8216014",
-      "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8216014",
-      "parent": "https://zenodo.org/api/records/8216013",
-      "parent_html": "https://zenodo.org/records/8216013",
-      "parent_doi": "https://doi.org/10.5281/zenodo.8216013",
-      "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8216013",
-      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8216014/manifest",
-      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8216014/sequence/default",
-      "files": "https://zenodo.org/api/records/8216014/files",
-      "media_files": "https://zenodo.org/api/records/8216014/media-files",
-      "thumbnails": {
-        "10": "https://zenodo.org/api/iiif/record:8216014:231063%20Elhamma%20and%20El-Moumane.pdf/full/^10,/0/default.jpg",
-        "50": "https://zenodo.org/api/iiif/record:8216014:231063%20Elhamma%20and%20El-Moumane.pdf/full/^50,/0/default.jpg",
-        "100": "https://zenodo.org/api/iiif/record:8216014:231063%20Elhamma%20and%20El-Moumane.pdf/full/^100,/0/default.jpg",
-        "250": "https://zenodo.org/api/iiif/record:8216014:231063%20Elhamma%20and%20El-Moumane.pdf/full/^250,/0/default.jpg",
-        "750": "https://zenodo.org/api/iiif/record:8216014:231063%20Elhamma%20and%20El-Moumane.pdf/full/^750,/0/default.jpg",
-        "1200": "https://zenodo.org/api/iiif/record:8216014:231063%20Elhamma%20and%20El-Moumane.pdf/full/^1200,/0/default.jpg"
-      },
-      "archive": "https://zenodo.org/api/records/8216014/files-archive",
-      "archive_media": "https://zenodo.org/api/records/8216014/media-files-archive",
-      "latest": "https://zenodo.org/api/records/8216014/versions/latest",
-      "latest_html": "https://zenodo.org/records/8216014/latest",
-      "versions": "https://zenodo.org/api/records/8216014/versions",
-      "draft": "https://zenodo.org/api/records/8216014/draft",
-      "reserve_doi": "https://zenodo.org/api/records/8216014/draft/pids/doi",
-      "access_links": "https://zenodo.org/api/records/8216014/access/links",
-      "access_grants": "https://zenodo.org/api/records/8216014/access/grants",
-      "access_users": "https://zenodo.org/api/records/8216014/access/users",
-      "access_request": "https://zenodo.org/api/records/8216014/access/request",
-      "access": "https://zenodo.org/api/records/8216014/access",
-      "communities": "https://zenodo.org/api/records/8216014/communities",
-      "communities-suggestions": "https://zenodo.org/api/records/8216014/communities-suggestions",
-      "requests": "https://zenodo.org/api/records/8216014/requests"
-    },
-    "updated": "2024-07-11T14:19:30.648304+00:00",
-    "recid": "8216014",
-    "revision": 6,
-    "files": [
+    "uid": "37251273",
+    "pubdate": "2023",
+    "epubdate": "2023 May 12",
+    "source": "Front Artif Intell",
+    "authors": [
       {
-        "id": "ef786a71-f606-4cfd-8d94-2a429374294c",
-        "key": "231063 Elhamma and El-Moumane.pdf",
-        "size": 321540,
-        "checksum": "md5:7ceead076067eb0ea81ba692aa77d1fb",
-        "links": {
-          "self": "https://zenodo.org/api/records/8216014/files/231063 Elhamma and El-Moumane.pdf/content"
-        }
+        "name": "Bl\u00fcml J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Czech J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
       }
     ],
-    "swh": {},
-    "owners": [
+    "lastauthor": "Kersting K",
+    "title": "AlphaZe\u2217\u2217: AlphaZero-like baselines for imperfect information games are surprisingly strong.",
+    "sorttitle": "alphaze alphazero like baselines for imperfect information games are surprisingly strong",
+    "volume": "6",
+    "issue": "",
+    "pages": "1014561",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
       {
-        "id": "157287"
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "37251273"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC10213697"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC10213697;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2023.1014561"
       }
     ],
-    "status": "published",
-    "stats": {
-      "downloads": 91,
-      "unique_downloads": 81,
-      "views": 134,
-      "unique_views": 130,
-      "version_downloads": 90,
-      "version_unique_downloads": 80,
-      "version_unique_views": 128,
-      "version_views": 132
-    },
-    "state": "done",
-    "submitted": true
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2022/08/08 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2023/04/20 00:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2023/05/30 13:08"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2023/05/30 13:07"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2023/05/30 11:34"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2023/05/12 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 41,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2023.1014561",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/05/12 00:00",
+    "sortfirstauthor": "Bl\u00fcml J",
+    "vernaculartitle": ""
   },
   {
-    "created": "2022-10-07T18:37:08.363411+00:00",
-    "modified": "2024-07-15T23:55:18.268571+00:00",
-    "id": 7158559,
-    "conceptrecid": "7158558",
-    "doi": "10.21303/2461-4262.2022.002529",
-    "doi_url": "https://doi.org/10.21303/2461-4262.2022.002529",
-    "metadata": {
-      "title": "Enterprise risk arising from legacy production systems: a probabilistic perspective",
-      "doi": "10.21303/2461-4262.2022.002529",
-      "publication_date": "2022-09-30",
-      "description": "The model of estimation of effective minimization of strategic risks arising at modernization of the software of legacy production systems is presented. It is shown that incompatible hypotheses of strategic risks of the enterprise in the digital economy form a complete group of pairwise incompatible independent events, and their probabilities are found by mathematical methods of processing an inversely symmetric matrix, made by experts in pairwise comparison on a 5-point scale of relative importance errors of calculations of the constructed matrix (no more than 15\u00a0%). For these matrices, solutions of characteristic equations are found to determine the maximum values of the eigenvalues of matrices, which appear in the assessment of the adequacy of composite expert matrices together with the corresponding orders of matrices.\n\n\nTo substantiate the statistical measurement under the condition of quantitative or qualitative assessment of the risk of occurrence of events, the a priori value of the probabilities of occurrence of risk in the occurrence of events is taken. The full probability formula is the formula for the probability of occurrence of an event of effective minimization of strategic risks. It is shown that to determine the a priori values of conditional probabilities of hypotheses of effective minimization of strategic risks of the enterprise it is necessary to make statistically significant sections of these hypotheses at selected enterprises for several periods, which may be subject to statistical distribution laws. Thus, the presented model for quantitative measurement, comprehensive analysis of the level of software modernization of legacy production systems of the enterprise is the initial theoretical basis for improving the system of strategic management of the enterprise in terms of digitalization.",
-      "access_right": "open",
-      "creators": [
-        {
-          "name": "Bludova, Tetiana",
-          "affiliation": "Kyiv National Economic University named after Vadym Hetman",
-          "orcid": "0000-0001-7011-5645"
-        },
-        {
-          "name": "Usherenko, Svitlana",
-          "affiliation": "Kyiv National Economic University named after Vadym Hetman",
-          "orcid": "0000-0003-0694-3862"
-        },
-        {
-          "name": "Moskovchuk, Alla",
-          "affiliation": "Lutsk National Technical University",
-          "orcid": "0000-0002-8355-0846"
-        },
-        {
-          "name": "Kaminska, Iryna",
-          "affiliation": "Lutsk National Technical",
-          "orcid": "0000-0001-6181-7522"
-        },
-        {
-          "name": "Kyslytsyna, Olga",
-          "affiliation": "Kyiv National Economic University named after Vadym Hetman",
-          "orcid": "0000-0003-0117-0274"
-        }
-      ],
-      "keywords": [
-        "project risk",
-        "expert matrix",
-        "full group of events",
-        "conditional probabilities",
-        "reengineering",
-        "business processes"
-      ],
-      "references": [
-        "Yoo, Y., Boland, R. J., Lyytinen, K., Majchrzak, A. (2012). Organizing for Innovation in the Digitized World. Organization Science, 23 (5), 1398\u20131408. doi: http://doi.org/10.1287/orsc.1120.0771",
-        "Westerman, G., Bonnet, D. (2015). Revamping Your Business Through Digital Transformatn. MIT Sloan Management Review, 56 (3), 10\u201313. Available at: https://www.researchgate.net/publication/285611160_Revamping_your_business_through_digital_transformation",
-        "Van der Aalst, W. M. P. (2013). Business Process Management: A Comprehensive Survey. ISRN Software Engineering, 2013, 1\u201337. doi: http://doi.org/10.1155/2013/507984",
-        "Tka, M., Ghannouchia, S. A. (2012). Comparison of Business Process Models as Part of BPR Projects. Procedia Technology, 5, 427\u2013436. doi: http://doi.org/10.1016/j.protcy.2012.09.047",
-        "Software Engineering Teams for FinTech. Available at: https://www.insart.com/",
-        "Ross, J. W., Sebastian, I. M., Beath, C. M. (2017). How to develop a great digital strategy. MIT Sloan Management Review, 58 (2), 7\u20139. Available at: https://sloanreview.mit.edu/article/how-to-develop-a-great-digital-strategy",
-        "Roeglinger, M., Seyfried, J., Stelzl, S., Muehlen, M. zur. (2018). Cognitive Computing: What's in for Business Process Management? An Exploration of Use Case Ideas. Business Process Management Workshops. Lecture Notes in Business Information Processing, 308, 419\u2013428. doi: http://doi.org/10.1007/978-3-319-74030-0_32",
-        "Ozcelik, Y.; Glykas, M. (Ed.) (2013). Effects of Business Process Re-engineering on Firm Performance: An Econometric Analysis. Business Process Management: Studies in Computational Intelligence. Berlin, Heidelberg: Springer, 99\u2013110. Available at: https://link.springer.com/chapter/10.1007/978-3-642-28409-0_4",
-        "Omidia, A., Khoshtinata, B. (2016). Factors affecting the implementation of business process re-engineering: taking into account the moderating role of organizational culture (Case Study: \t Iran Air). Procedia Economics and Finance, 36, 425\u2013432. doi: http://doi.org/10.1016/s2212-5671(16)30058-2",
-        "Olson, D. L., Dash, Wu. D. (2015). Enterprise risk management. World Scientific Publishing Co.ptc.ltd. doi: http://doi.org/10.1142/9378",
-        "Denner, M.-S., P\u00fcschel, L., R\u00f6glinger, M. (2018). Discussion Paper: Ho to Exploit the Digitalization Potential of Business Processes. Business & Information Systems Engineering, 60 (4), 331\u2013349. doi: http://doi.org/10.1007/s12599-017-0509-x",
-        "Looy, A., Poels, G., Snoeck, M. (2017). Evaluating Business Process Maturity Models. Journal of the Association for Information Systems, 18 (6), 461\u2013486. doi: http://doi.org/10.17705/1jais.00460",
-        "Loebbecke, C., Picot, A. (2015). Reflections on societal and business model transformation arising from digitization and big data analytics: A research agenda. The Journal of Strategic Information Systems, 24 (3), 149\u2013157. doi: http://doi.org/10.1016/j.jsis.2015.08.002",
-        "Qiaoxing, L., Tunhua, J. (2017). Summary of the research onthe business model innovation of \"Internet +\" health care industry. Journal of Guizhou University, 35 (5). 150\u2013156.",
-        "Leshchuk, V., Polinkevych, O., Ishchuk, L. (2015). Strategy of engineering enterprises' business process management in reengineering and redesign. Economic Annals-XXI, 1\u20132 (1), 57\u201361.",
-        "Lehnert, M., R\u00f6glinger, M., Johannes, S. (2018). Prioritization of Interconnected Processes. Business & Information Systems Engineering (BISE), 60 (2), 95\u2013114. doi: http://doi.org/10.1007/s12599-017-0490-4",
-        "Kohlbacher, M., Reijers, H. (2013). The effects of process\u2010oriented organizational design on firm performance. Business Process Management Journal, 19 (2), 245\u2013262. doi: http://doi.org/10.1108/14637151311308303",
-        "Klun, M., Trkman, P. (2018). Business process management \u2013 at the crossroads. Business Process Management Journal, 24 (3), 786\u2013813. doi:  http://doi.org/10.1108/BPMJ-11-2016-0226",
-        "Kerpedzhiev, G., K\u00f6nig, U., R\u00f6glinger, M., Rosemann, M. (2017). Business Process Management in the Digital Age. Available at: https://www.bptrends.com/business-process-management-in-the-digital-age",
-        "Kabaale, E., Kituyi, G. M. (2015). A theoretical framework for requirements engineering and process improvement in small and medium software companies. Business Process Management Journal, 21 (1), 80\u201399. doi: http://doi.org/10.1108/bpmj-01-2014-0002",
-        "Janse, B. (2018). Business Process Reengineering (BPR). Available at: https://www.toolshero.com/quality-management/business-process-reengineering-bpr/",
-        "Gens, F., Whalen, M., Mohan, D., Carnelley, P., Carvalho, L., Chen, G. (2019). IDC FutureScape: Worldwide IT Industry 2020 Predictions. Available at: https://www.idc.com/getdoc.jsp?containerId=US45599219",
-        "Hull, R., Motahari Nezhad, H.; La Rosa, M., Loos, P., Pastor, O. (Eds.) (2016). Rethinking BPM in a Cognitive World. Transforming How We Learn and Perform Business Processes. Business Process Management, 9850, 3\u201319. doi: http://doi.org/10.1007/978-3-319-45348-4_1",
-        "Hess, T., Matt, C., Benlian, A., Wiesb\u00f6ck, F. (2016). Options for Formulating a Digital Transformation Strategy. MIS Quarterly Executive, 15 (2), 123\u2013139. Available at: https://www.researchgate.net/publication/291349362_Options_for_Formulating_a_Digital_Transformation_Strategy",
-        "Chmeruk, H., Tokar, V., Sybyrka, L., Shaposhnik, O., Melnyk, O. (2019). Assessing the Level of Enterprise Reengineering in the Context of Global Digitalization. International Journal of Recent Technology and Engineering, 8 (4), 4103\u20134109. doi: http://doi.org/10.35940/ijrte.d8731.118419",
-        "Dijkman, R., Vanderfeesten, I., Reijers, H. A. (2016). Business Process Architectures: Overview, Comparison and Framework. Enterprise Information Systems, 10 (2), 129\u2013158. doi: http://doi.org/10.1080/17517575.2014.928951",
-        "Cherukupalli, P., Reddy, R. (2015). Reengineering enterprise wide legacy BFSI systems. Industrial case study: ACM International Conference Proceeding Series, 40\u201349. doi: http://doi.org/10.1145/2723742.2723746",
-        "Berger, S., Denner, M.-S., R\u00f6glinger, M. (2018). The nature of digital technologies. Development of a multi-layer taxonomy. Proceedings of the 26th European Conference on Information Systems. Portsmouth. Available at: https://www.researchgate.net/publication/330881198_The_Nature_of_Digital_Technologies_-_Development_of_a_Multi-layer_Taxonomy",
-        "Basole, R. C. (2016). Accelerating Digital Transformation Visual Insights from the API Ecosystem. IT Professional, 18 (6), 20\u201325. doi: http://doi.org/10.1109/mitp.2016.105",
-        "Barrett, M., Davidson, E., Prabhu, J., Vargo, S. L. (2015). Service Innovation in the Digital Age: Key Contributions and Future Directions. Management Information Systems Quarterly, 39 (1), 135\u2013154. doi: http://doi.org/10.25300/misq/2015/39:1.03",
-        "Andriole, S. J. (2017). Five Myths About Digital Transformation. MIT Sloan Management Review, 58 (3), 20\u201322. Available at: https://sloanreview.mit.edu/article/five-myths-about-digital-transformation/",
-        "Akam, G. U., Okeke, M. N., Kekeocha, M. E., Onuorah, A. N. (2018). Business Process Re-engineering Resources and the Performance of Quoted Brewing Firms in Nigeria. Asian Business Research Journal, 3 (1), 15\u201325. doi: http://doi.org/10.20448/journal.518.2018.31.15.25",
-        "Birchall, C. (2016). Re-Engineering Legacy Software. Manning Publications, 232. Available at: https://www.goodreads.com/book/show/24850349-re-engineering-legacy-software",
-        "After Deployment Storms, Skies Turn Sunny for Multi-Cloud Environments. MIT Technology Review. Available at: https://www.technologyreview.com/2017/12/12/241573/after-deployment-storms-skies-turn-sunny-for-multi-cloud-environments/",
-        "Mohanani, R., Salman, I., Turhan, B., Rodriguez, P., Ralph, P. (2020). Cognitive Biases in Software Engineering: A Systematic Mapping Study. IEEE Transactions on Software Engineering, 46 (12), 1318\u20131339. doi: http://doi.org/10.1109/tse.2018.2877759",
-        "Chotisarn, N., & Prompoon, N. (2013). Forecasting software damage rate from cognitive bias in software requirements gathering and specification process. 2013 IEEE Third International Conference on Information Science and Technology (ICIST), 951\u2013956. doi: http://doi.org/10.1109/icist.2013.6747696",
-        "Stacy, W., MacMillan, J. (1995). Cognitive bias in software engineering. Communications of the ACM, 38 (6), 57\u201363. doi: http://doi.org/10.1145/203241.203256",
-        "Overcoming cognitive bias in senior executives (2018). Strategic RISK Knowledge. https://www.strategicrisk-asiapacific.com/the-knowledge/overcoming-cognitive-bias-in-senior-executives/1428016.article Last accessed: 01.08.2022",
-        "Wang, H. E., Landers, M., Adams, R., Subbaswamy, A., Kharrazi, H., Gaskin, D. J., Saria, S. (2022). A bias evaluation checklist for predictive models and its pilot application for 30-day hospital readmission models. Journal of the American Medical Informatics Association, 29 (8), 1323\u20131333. doi: http://doi.org/10.1093/jamia/ocac065"
-      ],
-      "language": "eng",
-      "resource_type": {
-        "title": "Journal article",
-        "type": "publication",
-        "subtype": "article"
-      },
-      "journal": {
-        "issue": "5",
-        "pages": "150-161",
-        "title": "EUREKA: Physics and Engineering"
-      },
-      "license": {
-        "id": "cc-by-4.0"
-      },
-      "relations": {
-        "version": [
-          {
-            "index": 0,
-            "is_last": true,
-            "parent": {
-              "pid_type": "recid",
-              "pid_value": "7158558"
-            }
-          }
-        ]
-      }
-    },
-    "title": "Enterprise risk arising from legacy production systems: a probabilistic perspective",
-    "links": {
-      "self": "https://zenodo.org/api/records/7158559",
-      "self_html": "https://zenodo.org/records/7158559",
-      "doi": "https://doi.org/10.21303/2461-4262.2022.002529",
-      "self_doi": "https://doi.org/10.21303/2461-4262.2022.002529",
-      "self_doi_html": "https://zenodo.org/doi/10.21303/2461-4262.2022.002529",
-      "parent": "https://zenodo.org/api/records/7158558",
-      "parent_html": "https://zenodo.org/records/7158558",
-      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7158559/manifest",
-      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7158559/sequence/default",
-      "files": "https://zenodo.org/api/records/7158559/files",
-      "media_files": "https://zenodo.org/api/records/7158559/media-files",
-      "thumbnails": {
-        "10": "https://zenodo.org/api/iiif/record:7158559:Enterprise%20risk%20arising%20from%20legacy%20production%20systems_%20a%20probabilistic%20perspective_zenodo.pdf/full/^10,/0/default.jpg",
-        "50": "https://zenodo.org/api/iiif/record:7158559:Enterprise%20risk%20arising%20from%20legacy%20production%20systems_%20a%20probabilistic%20perspective_zenodo.pdf/full/^50,/0/default.jpg",
-        "100": "https://zenodo.org/api/iiif/record:7158559:Enterprise%20risk%20arising%20from%20legacy%20production%20systems_%20a%20probabilistic%20perspective_zenodo.pdf/full/^100,/0/default.jpg",
-        "250": "https://zenodo.org/api/iiif/record:7158559:Enterprise%20risk%20arising%20from%20legacy%20production%20systems_%20a%20probabilistic%20perspective_zenodo.pdf/full/^250,/0/default.jpg",
-        "750": "https://zenodo.org/api/iiif/record:7158559:Enterprise%20risk%20arising%20from%20legacy%20production%20systems_%20a%20probabilistic%20perspective_zenodo.pdf/full/^750,/0/default.jpg",
-        "1200": "https://zenodo.org/api/iiif/record:7158559:Enterprise%20risk%20arising%20from%20legacy%20production%20systems_%20a%20probabilistic%20perspective_zenodo.pdf/full/^1200,/0/default.jpg"
-      },
-      "archive": "https://zenodo.org/api/records/7158559/files-archive",
-      "archive_media": "https://zenodo.org/api/records/7158559/media-files-archive",
-      "latest": "https://zenodo.org/api/records/7158559/versions/latest",
-      "latest_html": "https://zenodo.org/records/7158559/latest",
-      "versions": "https://zenodo.org/api/records/7158559/versions",
-      "draft": "https://zenodo.org/api/records/7158559/draft",
-      "reserve_doi": "https://zenodo.org/api/records/7158559/draft/pids/doi",
-      "access_links": "https://zenodo.org/api/records/7158559/access/links",
-      "access_grants": "https://zenodo.org/api/records/7158559/access/grants",
-      "access_users": "https://zenodo.org/api/records/7158559/access/users",
-      "access_request": "https://zenodo.org/api/records/7158559/access/request",
-      "access": "https://zenodo.org/api/records/7158559/access",
-      "communities": "https://zenodo.org/api/records/7158559/communities",
-      "communities-suggestions": "https://zenodo.org/api/records/7158559/communities-suggestions",
-      "requests": "https://zenodo.org/api/records/7158559/requests"
-    },
-    "updated": "2024-07-15T23:55:18.268571+00:00",
-    "recid": "7158559",
-    "revision": 5,
-    "files": [
+    "uid": "36540991",
+    "pubdate": "2023",
+    "epubdate": "",
+    "source": "Pac Symp Biocomput",
+    "authors": [
       {
-        "id": "154a9596-ed25-4aef-8f1b-306aa5140d67",
-        "key": "Enterprise risk arising from legacy production systems_ a probabilistic perspective_zenodo.pdf",
-        "size": 935490,
-        "checksum": "md5:30df7123afdbe9ac5297a3a80e0cb939",
-        "links": {
-          "self": "https://zenodo.org/api/records/7158559/files/Enterprise risk arising from legacy production systems_ a probabilistic perspective_zenodo.pdf/content"
-        }
+        "name": "Mathur S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Karanam A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Radivojac P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Haas DM",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Natarajan S",
+        "authtype": "Author",
+        "clusterid": ""
       }
     ],
-    "swh": {},
-    "owners": [
+    "lastauthor": "Natarajan S",
+    "title": "Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes.",
+    "sorttitle": "exploiting domain knowledge as causal independencies in modeling gestational diabetes",
+    "volume": "28",
+    "issue": "",
+    "pages": "359-370",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "9711271",
+    "issn": "2335-6928",
+    "essn": "2335-6936",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "4",
+    "articleids": [
       {
-        "id": "75629"
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "36540991"
+      },
+      {
+        "idtype": "mid",
+        "idtypen": 8,
+        "value": "NIHMS1853000"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC9782711"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC9782711;manuscript-id: NIHMS1853000;"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "9789811270611_0033"
       }
     ],
-    "status": "published",
-    "stats": {
-      "downloads": 16,
-      "unique_downloads": 16,
-      "views": 21,
-      "unique_views": 20,
-      "version_downloads": 16,
-      "version_unique_downloads": 16,
-      "version_unique_views": 20,
-      "version_views": 21
-    },
-    "state": "done",
-    "submitted": true
+    "history": [
+      {
+        "pubstatus": "entrez",
+        "date": "2022/12/21 02:33"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/12/22 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2022/12/23 06:00"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2023/01/01 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 12,
+    "fulljournalname": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing",
+    "elocationid": "",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/01/01 00:00",
+    "sortfirstauthor": "Mathur S",
+    "vernaculartitle": ""
   },
   {
-    "created": "2024-06-03T22:21:32.746112+00:00",
-    "modified": "2024-06-03T22:21:33.055454+00:00",
-    "id": 11459720,
-    "conceptrecid": "8144774",
-    "doi": "10.5281/zenodo.11459720",
-    "conceptdoi": "10.5281/zenodo.8144774",
-    "doi_url": "https://doi.org/10.5281/zenodo.11459720",
-    "metadata": {
-      "title": "La transformaci\u00f3n digital en organizaciones de educaci\u00f3n superior: estructura intelectual, conceptual y social",
-      "doi": "10.5281/zenodo.11459720",
-      "publication_date": "2023-09-14",
-      "description": "<p><strong><span>Introducci&oacute;n:</span></strong><span> los avances tecnol&oacute;gicos y sociales, derivados del uso masivo de las tecnolog&iacute;as de la informaci&oacute;n y la comunicaci&oacute;n, est&aacute;n transformando todos los sectores, y la educaci&oacute;n no es una excepci&oacute;n. Las organizaciones educativas deben adoptar una Transformaci&oacute;n Digital (TD) para hacer frente a una nueva realidad sociocultural, medioambiental y econ&oacute;mica actual. <strong>Objetivo:</strong> analizar la estructura intelectual, conceptual y social de la transformaci&oacute;n digital en las organizaciones educativas. <strong>Metodolog&iacute;a:</strong> se ejecut&oacute; un estudio con diferentes t&eacute;cnicas bibliom&eacute;tricas. <strong>Resultados:</strong> la estructura intelectual de la bibliograf&iacute;a aparece tres temas; uno m&aacute;s te&oacute;rico que explora la TD en las Instituciones de Educaci&oacute;n Superior, alertando que &eacute;sta es m&aacute;s que un conjunto de herramientas digitales; un segundo cl&uacute;ster apunta a las tres dimensiones de la TD: tecnol&oacute;gica, pedag&oacute;gica y organizaci&oacute;n; el tercer grupo analiza la implementaci&oacute;n pr&aacute;ctica de la TD y la importancia de gestionar las personas en el proceso. <strong>Conclusi&oacute;n:</strong> en estructura tem&aacute;tica, destacan tambi&eacute;n 3 grupos: el de fundamentos te&oacute;ricos y conceptual, que revela el COVID-19 como principal factor desencadenante de la TD, el segundo cl&uacute;ster investiga el proceso de aprendizaje a trav&eacute;s de una docencia digital y el tercero destaca la importancia de la gesti&oacute;n del cambio cultural. </span></p>",
-      "access_right": "open",
-      "creators": [
-        {
-          "name": "Aparisi-Torrijo, Sof\u00eda",
-          "affiliation": "Universitat Polit\u00e8cnica de Valencia, Espa\u00f1a",
-          "orcid": "0000-0003-4518-2461"
-        }
-      ],
-      "keywords": [
-        "transformaci\u00f3n digital",
-        "organizaciones educativas",
-        "instituciones educativas superiores",
-        "an\u00e1lisis bibliom\u00e9trico"
-      ],
-      "related_identifiers": [
-        {
-          "identifier": "https://revistas.unica.cu/index.php/regu/article/view/3382",
-          "relation": "isPublishedIn",
-          "resource_type": "publication-article",
-          "scheme": "url"
-        }
-      ],
-      "dates": [
-        {
-          "type": "collected"
-        },
-        {
-          "type": "accepted"
-        }
-      ],
-      "references": [
-        "Abad-Segura, E., Gonz\u00e1lez-Zamar, M. D., Infante-Moro, J. C. and Garc\u00eda, G. R. (2020). Sustainable management of digital transformation in higher education: Global research trends. Sustainability (Switzerland), 12(5). doi:10.3390/su12052107.",
-        "Alenezi, M. (2021). Deep Dive into Digital Transformation in Higher Education Institutions. Education Sciences, 11(770), pp. 1\u201313.",
-        "Alhubaishy, A. and Aljuhani, A. (2021). \ue08ae challenges of instructors' and students' attitudes in digital transformation: A case study of Saudi Universities. Education and Information Technologies. Springer US, 26(4), pp. 4647\u20134662. doi:10.1007/s10639-021-10491-6.",
-        "Ali, I. and G\u00f6lgeci, I. (2019). Where is supply chain resilience research heading? A systematic and co-occurrence analysis. International Journal of Physical Distribution and Logistics Management, 49(8), pp. 793\u2013815. doi:10.1108/IJPDLM-02-2019-0038.",
-        "Almatrodi, I. and Skoumpopoulou, D. (2023). Organizational Routines and Digital Transformation: An Analysis of How Organizational Routines Impact Digital Transformation Transition in a Saudi University. Systems, 11(5). doi:10.3390/systems11050239.",
-        "Alonso, S., Cabrerizo, F. J., Herrera-Viedma, E. and Herrera, F. (2009). h-Index: A review focused in its variants, computation and standardization for different scientific fields. Journal of Informetrics, 3(4), pp. 273\u2013289. doi:10.1016/j.joi.2009.04.001.",
-        "Aparisi-Torrijo, S. and Catal\u00e1-Miguel, I. (2021). Use of ICT for flexible and hybrid university teaching: a blended learning model for face-to-face and online learning. 29\ue0eb International Conference on Information Systems Development (Isd2021 Valencia, Spain). https://aisel.aisnet.org/isd2014/proceedings2021/methodologies/19/.",
-        "Baier-Fuentes, H., Merig\u00f3, J. M., Amor\u00f3s, J. E. and Gaviria-Mar\u00edn, M. (2019). International entrepreneurship: a bibliometric overview. International Entrepreneurship and Management Journal. International Entrepreneurship and Management Journal, 15(2), pp. 385\u2013429. doi:10.1007/s11365-017-0487-y.",
-        "Bond, M., Mar\u00edn, V. I., Dolch, C., Bedenlier, S. and Zawacki-Richter, O. (2018). Digital transformation in German higher education: student and teacher perceptions and usage of digital media. International Journal of Educational Technology in Higher Education, 15(1), pp. 1\u201320. doi:10.1186/s41239-018-0130-1.",
-        "Boyack, K. and Klavans, R. (2010). Co-Citation Analysis, Bibliographic Coupling, and Direct Citation: Which Citation Approach Represents the Research Front Most Accurately? Journal of the American Society for Information Science and Technology, 12(61), pp. 2389\u2013 2404. doi:10.1002/asi.",
-        "Brdesee, H. and Alsaggaf, W. (2022). Decision-Making Strategy for Digital Transformation: A Two-Year Analytical Study and Follow-Up Concerning Innovative Improvements in University e-Services. Journal of \ue0ebeoretical and Applied Electronic Commerce Research, 17(1), pp. 138\u2013164. doi:10.3390/jtaer17010008.",
-        "Bryndin, E. (2019). Creative Innovative Higher Education of Researchers with Flexible Skills and Synergy of Cooperation. Contemporary Research in Education and English Language Teaching, 1(1), pp. 1\u20136. doi:10.33094/26410230.2019.11.1.6.",
-        "Bygstad, B., \u00d8vrelid, E., Ludvigsen, S. and D\u00e6hlen, M. (2022). From dual digitalization to digital learning space: Exploring the digital transformation of higher education. Computers and Education, 182. doi:10.1016/ j.compedu.2022.104463.",
-        "Callahan, J. L. (2010). Constructing a manuscript: Distinguishing integrative literature reviews and conceptual and theory articles. Human Resource Development Review, 9(3), pp. 300\u2013304. doi:10.1177/1534484310371492.",
-        "Cancino, C., Merig\u00f3, J. M., Coronado, F., Dessouky, Y. and Dessouky, M. (2017). Forty years of Computers & Industrial Engineering: A bibliometric analysis. Computers and Industrial Engineering. Elsevier Ltd, 113, pp. 614\u2013629. doi:10.1016/j.cie.2017.08.033.",
-        "Casta\u00f1eda, L. and Selwyn, N. (2018). More than tools? Making sense of the ongoing digitizations of higher education. International Journal of Educational Technology in Higher Education. 15(1). doi:10.1186/s41239-018-0109-y.",
-        "Castro Benavides, L. M., Tamayo Arias, J. A., Arango Serna, M. D., Branch Bedoya, J. W. and Burgos, D. (2020). Digital Transformation in Higher Education Institutions: A Systematic Literature Review. Sensors (Basel, Switzerland), 20(11), pp. 1\u201322. doi:10.3390/s20113291.",
-        "Chin, W., Cheah, J. H., Liu, Y., Ting, H., Lim, X. J. and Cham, T. H. (2020). Demystifying the role of causal-predictive modeling using partial least squares structural equation modeling in information systems research. Industrial Management and Data Systems, 120(12), pp. 2161\u20132209. doi:10.1108/IMDS-10-2019-0529.",
-        "Dervis, H. (2019). Bibliometric analysis using bibliometrix an R package. Journal of Scientometric Research, 8(3), pp. 156\u2013160. doi:10.5530/JSCIRES.8.3.32.",
-        "D\u00edaz-Garc\u00eda, V., Montero-Navarro, A., Rodr\u00edguez-S\u00e1nchez, J. L. and Gallego-Losada, R. (2022). Digitalization and digital transformation in higher education: A bibliometric analysis. Frontiers in Psychology, 13(December). doi:10.3389/fpsyg.2022.1081595.",
-        "Donthu, N., Kumar, S., Mukherjee, D., Pandey, N. and Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. Journal of Business Research. Elsevier Inc., 133(April), pp. 285\u2013296. doi:10.1016/ j.jbusres.2021.04.070.",
-        "Elena, F. (2017). Embedding digital teaching and learning practices in the modernization of higher education institutions. Education, Section, pp. 41\u201348.",
-        "Ellegaard, O. and Wallin, J. A. (2015). \ue08ae bibliometric analysis of scholarly production: How great is the impact? Scientometrics. Springer Netherlands, 105(3), pp. 1809\u20131831. doi:10.1007/s11192-015-1645-z.",
-        "Erdmann, A., Estrada Presedo, A. and De Miguel Vald\u00e9s, M. (2021). Digital Transformation of Universities: \ue08ae Influence of COVID-19 and Students' Perception. Multidisciplinary Journal for Education, Social and Technological Sciences, 8(2), p. 19. doi:10.4995/muse.2021.16007.",
-        "Garc\u00eda-Pe\u00f1alvo, F. J. (2021a). Avoiding the dark side of digital transformation in teaching. an institutional reference framework for eLearning in higher education. Sustainability (Switzerland), 13(4), pp. 1\u201317. doi:10.3390/ su13042023.",
-        "Garc\u00eda-Pe\u00f1alvo, F. J. (2021b). Digital transformation in the universities: Implications of the covid-19 pandemic. Education in the Knowledge Society, 22(February). doi:10.14201/eks.25465.",
-        "Gaviria-Mar\u00edn, M. (2021). Bibliometrics and business. A challenge for researchers. Inquietud Empresarial, 21(1), pp. I\u2013III. https://revistas.uptc.edu.co/index.php/inquietud_empresarial/article/view/12931.",
-        "Gobble, M. M. (2018). Digitalization, digitization, and innovation. Research-Technology Management, 61(4), 56-59. DOI: 10.1080/08956308.2018.1471280",
-        "Grajek, S. and Reinitz, B. (2019). Getting Ready for Digital Transformation: Change Your Culture, Workforce, and Technology. Educase Review.",
-        "Henderson, M., Selwyn, N. and Aston, R. (2017). What works and why? Student perceptions of \"useful\" digital technology in university teaching and learning. Studies in Higher Education, 42 (8), pp. 1567\u20131579. doi:10.1080/03075079.2015.1007946.",
-        "Hernando Calvo, A. (2015). Viaje a la Escuela del Siglo XXI: As\u00ed trabajan los colegios m\u00e1s innovadores del mundo. Fundaci\u00f3n Telef\u00f3nica, p. 199.",
-        "Hirsch, J. E. (2005). An index to quantify an individual's scientific research output. Proceedings of the National Academy of Sciences of the United States of America, 102(46), pp. 16569\u201316572. doi:10.1073/pnas.0507655102.",
-        "Jackson, N. C. (2019). Managing for competency with innovation change in higher education: Examining the pitfalls and pivots of digital transformation. Business Horizons. Elsevier Ltd, 62(6), pp. 761\u2013772. doi:10.1016/ j.bushor.2019.08.002.",
-        "Kulkarni, L. y Ghosh, A. (2021). Disparidad de g\u00e9nero en la digitalizaci\u00f3n de los servicios financieros: desaf\u00edos y promesas para la inclusi\u00f3n financiera de las mujeres en la India. gentil Tecnolog\u00eda desarrollo 25, 233\u2013250. doi: 10.1080/09718524.2021.1911022",
-        "Kuzu, \u00d6. H. (2020). Digital transformation in higher education: A case study on strategic plans. Vysshee Obrazovanie v Rossii, 29(3), pp. 9\u201323. doi:10.31992/0869-3617-2019-29-3-9-23.",
-        "Limani, Y., Hajrizi, E., Stapleton, L. and Retkoceri, M. (2019). Digital transformation readiness in higher education institutions (hei):the case of kosovo. IFAC-PapersOnLine. Elsevier Ltd, 52(25), pp. 52\u201357. doi:10.1016/ j.ifacol.2019.12.445.",
-        "Lillejord, S., et al. (2018). Learning and teaching with technology in higher education\u2013a systematic review. Oslo: Knowledge Centre for Education.",
-        "Livari, N., Sharma, S. and Vent\u00e4-Olkkonen, L. (2020). Digital transformation of everyday life \u2013 How COVID-19 pandemic transformed the basic education of the young generation and why information management research should care? International Journal of Information Management. Elsevier, 55(June), p. 102183. doi:10.1016/ j.ijinfomgt.2020.102183.",
-        "Llorens-Largo, F. (2020). Transformaci\u00f3n digital versus digitalizaci\u00f3n. In Univers\u00eddad; Studia XXI: Madrid, Spain. Volume 2020.",
-        "Maltese, V. (2018). Digital transformation challenges for universities: Ensuring information consistency across digital services. Cataloging and Classification Quarterly, 56(7), pp. 592\u2013606. doi:10.1080/01639374.2018.1504847.",
-        "Matt, C., Hess, T. and Benlian, A. (2015). Digital Transformation Strategies. Business and Information Systems Engineering. Springer Fachmedien Wiesbaden, 57(5), pp. 339\u2013343. doi:10.1007/s12599-015-0401-5.",
-        "Merig\u00f3, J. M., Cancino, C. A., Coronado, F. and Urbano, D. (2016). Academic research in innovation: a country analysis. Scientometrics, 108(2), pp. 559\u2013593. doi:10.1007/s11192-016-1984-4.",
-        "Merig\u00f3, J. M., Mas-Tur, A., Roig-Tierno, N. and Ribeiro-Soriano, D. (2015). A bibliometric overview of the Journal of Business Research between 1973 and 2014. Journal of Business Research. Elsevier Inc., 68(12), pp. 2645\u20132653. doi:10.1016/j.jbusres.2015.04.006.",
-        "Mohamed Hashim, M. A., Tlemsani, I. and Matthews, R. (2022). Higher education strategy in digital transformation. Education and Information Technologies. Springer US, 27(3), pp. 3171\u20133195. doi:10.1007/ s10639-021-10739-1.",
-        "Mukherjee, D., Lim, W. M., Kumar, S. and Donthu, N. (2022). Guidelines for advancing theory and practice through bibliometric research. Journal of Business Research. Elsevier Inc., 148(May), pp. 101\u2013115. doi:10.1016/ j.jbusres.2022.04.042.",
-        "Novillo Maldonado, E. F., Espinoza Galarza, M. O. and Guerrero Jiron, J. R. (2017). Influencia de las TIC en la educaci\u00f3n universitaria, caso Universidad T\u00e9cnica de Machala. INNOVA Research Journal, 2(3), pp. 69\u201379. doi:10.33890/innova.v2.n3.2017.136.",
-        "Pazos, A. J. B., Ruiz, B. C. and P\u00e9rez, B. M. (2020). Digital transformation of university teaching in communication during the covid-19 emergency in spain: An approach from students' perspective. Revista Latina de Comunicacion Social, 78, pp. 265\u2013287. doi:10.4185/RLCS-2020-1477.",
-        "Pham, H., Tran, Q. N., La, G. L., Doan, H. M. and Vu, T. D. (2021). Readiness for digital transformation of higher education in the Covid-19 context: \ue08ae dataset of Vietnam's students. Data in Brief. Elsevier Inc., 39, p. 107482. doi:10.1016/j.dib.2021.107482.",
-        "Pucciarelli, F. and Kaplan, A. (2016). Competition and strategy in higher education: Managing complexity and uncertainty. Business Horizons. Kelley School of Business, Indiana University, 59(3), pp. 311\u2013320. doi:10.1016/ j.bushor.2016.01.003.",
-        "Rodr\u00edguez-Abitia, G. and Bribiesca-Correa, G. (2021). Assessing digital transformation in universities. Future Internet, 13(2), pp. 1\u201317. doi:10.3390/fi13020052.",
-        "Rodr\u00edguez-Abitia, G., Mart\u00ednez-P\u00e9rez, S., Ramirez-Montoya, M. S. and Lopez-Caudana, E. (2020). Digital gap in universities and challenges for quality education: A diagnostic study in Mexico and Spain. Sustainability (Switzerland), 12(21), pp. 1\u201314. doi:10.3390/su12219069.",
-        "R\u00f8e, Y., Wojniusz, S. and Bjerke, A. H. (2022). \ue08ae Digital Transformation of Higher Education Teaching: Four Pedagogical Prescriptions to Move Active Learning Pedagogy Forward. Frontiers in Education, 6(January), pp. 1\u20136. doi:10.3389/feduc.2021.784701.",
-        "Rof, A., Bikfalvi, A. and Marques, P. (2022). Pandemic-accelerated Digital Transformation of a Born Digital Higher Education Institution: Towards a Customized Multimode Learning Strategy. Educational Technology and Society, 25(1), pp. 124\u2013141.",
-        "Rof, A., Bikfalvi, A. and Marqu\u00e8s, P. (2020). Digital transformation for business model innovation in higher education: Overcoming the tensions. Sustainability (Switzerland), 12(12). doi:10.3390/su12124980.",
-        "Serna, M. D. A., Branch, J. W., Benavides, L. M. C. and Burgos, D. (2018). A conceptual model of digital transformation. openergy and thecase study of Universidad Nacional de Colombia. Education in the Knowledge Society, 19(4), pp. 95\u2013107. doi:10.14201/EKS201819495107.",
-        "Sinclair, J. and Aho, A. M. (2018). Experts on super innovators: understanding staff adoption of learning management systems. Higher Education Research and Development, 37(1), pp. 158\u2013172. doi:10.1080/07294360.2017.1342609.",
-        "Su\u00e1rez, L. M. C., N\u00fa\u00f1ez-Vald\u00e9s, K. and Alpera, S. Q. Y. (2021). A systemic perspective for understanding digital transformation in higher education: Overview and subregional context in latin america as evidence. Sustainability (Switzerland), 13(23). doi:10.3390/su132312956.",
-        "Tay, H. L. and Low, S. W. K. (2017). Digitalization of learning resources in a HEI \u2013 a lean management perspective. International Journal of Productivity and Performance Management, 66(5), pp. 680\u2013694. doi:10.1108/ IJPPM-09-2016-0193.",
-        "Teixeira, A. F., Gon\u00e7alves, M. J. A. and Taylor, M. de L. M. (2021). How higher education institutions are driving to digital transformation: A case study. Education Sciences, 11(10). doi:10.3390/educsci11100636.",
-        "Torres-Ruiz, M. and Moreno-Ibarra, M. (2019). Challenges and Opportunities in the Digital Transformation of the Higher Education Institutions: \ue08ae Case of Mexico. Management and Administration of Higher Education Institutions at Times of Change, (January 2020), pp. 137\u2013150. doi:10.1108/978-1-78973-627-420191012.",
-        "Toth, C., Helic, D. and Geiger, B. C. (2022). Synwalk: community detection via random walk modelling. Data Mining and Knowledge Discovery. Springer US. doi:10.1007/s10618-021-00809-w.",
-        "Van Eck, N. J. and Waltman, L. (2010). So\ue18dware survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics, 84(2), pp. 523\u2013538. doi:10.1007/s11192-009-0146-3.",
-        "Vial, G. (2019). Understanding digital transformation: A review and a research agenda. Journal of Strategic Information Systems. Elsevier, 28(2), pp. 118\u2013144. doi:10.1016/j.jsis.2019.01.003.",
-        "Vinikurova, N. V., Mazurenko, O. V., Prikhodchenko, T. N. and Ulanova, S. L. (2021). Digital transformation of educational content in the pedagogical higher educational institution. Apuntes Universitarios, 11 (3), pp. 383\u2013 395.",
-        "Warner, K. S. R. and W\u00e4ger, M. (2019). Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal. Long Range Planning, 52(3), pp. 326\u2013349. doi:10.1016/j.lrp.2018.12.001.",
-        "Zupic, I. and \u010cater, T. (2015). Bibliometric Methods in Management and Organization. Organizational Research Methods, 18(3), pp. 429\u2013472. doi:10.1177/1094428114562629."
-      ],
-      "language": "spa",
-      "resource_type": {
-        "title": "Journal article",
-        "type": "publication",
-        "subtype": "article"
-      },
-      "journal": {
-        "issue": "2",
-        "pages": "1-32",
-        "title": "Estrategia y Gesti\u00f3n Universitaria",
-        "volume": "11"
-      },
-      "alternate_identifiers": [
-        {
-          "identifier": "10.5281/zenodo.8144775"
-        }
-      ],
-      "license": {
-        "id": "cc-by-sa-4.0"
-      },
-      "relations": {
-        "version": [
-          {
-            "index": 1,
-            "is_last": true,
-            "parent": {
-              "pid_type": "recid",
-              "pid_value": "8144774"
-            }
-          }
-        ]
-      }
-    },
-    "title": "La transformaci\u00f3n digital en organizaciones de educaci\u00f3n superior: estructura intelectual, conceptual y social",
-    "links": {
-      "self": "https://zenodo.org/api/records/11459720",
-      "self_html": "https://zenodo.org/records/11459720",
-      "doi": "https://doi.org/10.5281/zenodo.11459720",
-      "self_doi": "https://doi.org/10.5281/zenodo.11459720",
-      "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11459720",
-      "parent": "https://zenodo.org/api/records/8144774",
-      "parent_html": "https://zenodo.org/records/8144774",
-      "parent_doi": "https://doi.org/10.5281/zenodo.8144774",
-      "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8144774",
-      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:11459720/manifest",
-      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:11459720/sequence/default",
-      "files": "https://zenodo.org/api/records/11459720/files",
-      "media_files": "https://zenodo.org/api/records/11459720/media-files",
-      "thumbnails": {
-        "10": "https://zenodo.org/api/iiif/record:11459720:1-3382%2B.pdf/full/^10,/0/default.jpg",
-        "50": "https://zenodo.org/api/iiif/record:11459720:1-3382%2B.pdf/full/^50,/0/default.jpg",
-        "100": "https://zenodo.org/api/iiif/record:11459720:1-3382%2B.pdf/full/^100,/0/default.jpg",
-        "250": "https://zenodo.org/api/iiif/record:11459720:1-3382%2B.pdf/full/^250,/0/default.jpg",
-        "750": "https://zenodo.org/api/iiif/record:11459720:1-3382%2B.pdf/full/^750,/0/default.jpg",
-        "1200": "https://zenodo.org/api/iiif/record:11459720:1-3382%2B.pdf/full/^1200,/0/default.jpg"
-      },
-      "archive": "https://zenodo.org/api/records/11459720/files-archive",
-      "archive_media": "https://zenodo.org/api/records/11459720/media-files-archive",
-      "latest": "https://zenodo.org/api/records/11459720/versions/latest",
-      "latest_html": "https://zenodo.org/records/11459720/latest",
-      "versions": "https://zenodo.org/api/records/11459720/versions",
-      "draft": "https://zenodo.org/api/records/11459720/draft",
-      "reserve_doi": "https://zenodo.org/api/records/11459720/draft/pids/doi",
-      "access_links": "https://zenodo.org/api/records/11459720/access/links",
-      "access_grants": "https://zenodo.org/api/records/11459720/access/grants",
-      "access_users": "https://zenodo.org/api/records/11459720/access/users",
-      "access_request": "https://zenodo.org/api/records/11459720/access/request",
-      "access": "https://zenodo.org/api/records/11459720/access",
-      "communities": "https://zenodo.org/api/records/11459720/communities",
-      "communities-suggestions": "https://zenodo.org/api/records/11459720/communities-suggestions",
-      "requests": "https://zenodo.org/api/records/11459720/requests"
-    },
-    "updated": "2024-06-03T22:21:33.055454+00:00",
-    "recid": "11459720",
-    "revision": 4,
-    "files": [
+    "uid": "35904439",
+    "pubdate": "2023 Jan",
+    "epubdate": "2023 Jan 13",
+    "source": "Phytopathology",
+    "authors": [
       {
-        "id": "5a9a653b-2e45-4ad5-8156-ecdfa719dfd9",
-        "key": "1-3382+.pdf",
-        "size": 968385,
-        "checksum": "md5:6fa087230535cb01e7ab4eebb3d3449a",
-        "links": {
-          "self": "https://zenodo.org/api/records/11459720/files/1-3382+.pdf/content"
-        }
+        "name": "Brugger A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Yamati FI",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Barreto A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Paulus S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Schramowsk P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Steiner U",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Neugart S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Mahlein AK",
+        "authtype": "Author",
+        "clusterid": ""
       }
     ],
-    "swh": {},
-    "owners": [
+    "lastauthor": "Mahlein AK",
+    "title": "Hyperspectral Imaging in the UV Range Allows for Differentiation of Sugar Beet Diseases Based on Changes in Secondary Plant Metabolites.",
+    "sorttitle": "hyperspectral imaging in the uv range allows for differentiation of sugar beet diseases based on changes in secondary plant metabolites",
+    "volume": "113",
+    "issue": "1",
+    "pages": "44-54",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "9427222",
+    "issn": "0031-949X",
+    "essn": "",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "256",
+    "articleids": [
       {
-        "id": "564442"
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "35904439"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.1094/PHYTO-03-22-0086-R"
       }
     ],
-    "status": "published",
-    "stats": {
-      "downloads": 138,
-      "unique_downloads": 100,
-      "views": 127,
-      "unique_views": 112,
-      "version_downloads": 3,
-      "version_unique_downloads": 2,
-      "version_unique_views": 13,
-      "version_views": 13
-    },
-    "state": "done",
-    "submitted": true
+    "history": [
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/07/30 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2023/01/28 06:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2022/07/29 10:05"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": "",
+    "fulljournalname": "Phytopathology",
+    "elocationid": "doi: 10.1094/PHYTO-03-22-0086-R",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/01/01 00:00",
+    "sortfirstauthor": "Brugger A",
+    "vernaculartitle": ""
   },
   {
-    "created": "2024-12-04T08:23:45.009511+00:00",
-    "modified": "2024-12-04T08:23:45.203795+00:00",
-    "id": 14272904,
-    "conceptrecid": "14272903",
-    "doi": "10.5281/zenodo.14272904",
-    "conceptdoi": "10.5281/zenodo.14272903",
-    "doi_url": "https://doi.org/10.5281/zenodo.14272904",
-    "metadata": {
-      "title": "Streamlining Supply Chain Operations through SaaS-Based ERP and SOA Integration",
-      "doi": "10.5281/zenodo.14272904",
-      "publication_date": "2020-12-31",
-      "description": "<p><span>In today&rsquo;s fast-paced digital environment, businesses are increasingly looking for solutions that offer flexibility, scalability, and ease of integration. One such approach is the implementation of Software as a Service (SaaS) for Enterprise Resource Planning (ERP) in combination with Service-Oriented Architecture (SOA) in supply chain management.<span>&nbsp; </span>This paper offers insights into these strategies that offer considerable advantages, it&rsquo;s essential for architects to evaluate whether the combination of SaaS ERP and SOA is suitable for their specific needs and operations. SaaS is generally a strong fit for many businesses looking to modernize their ERP and supply chain processes, especially if flexibility, cost efficiency, and ease of use are key priorities.</span></p>",
-      "access_right": "open",
-      "creators": [
-        {
-          "name": "Gopikrishna Kalpinagarajarao",
-          "affiliation": null
-        }
-      ],
-      "keywords": [
-        "SOA",
-        "SaaS",
-        "ERP",
-        "Middleware",
-        "Integration"
-      ],
-      "references": [
-        "[1].\tBenlian, A., Hess, T. (2011). \"Opportunities and risks of software-as-a-service: Findings from a survey of IT executives.\" Decision Support Systems, 52(1), 232-246.",
-        "[2].\tMohan, S., Ahlemann, F. (2013). \"Integration of SaaS ERP systems with other enterprise systems: The role of system and task characteristics.\" Business & Information Systems Engineering, 5(4), 267-279.",
-        "[3].\tElragal, A., Haddara, M. (2012). \"The future of ERP systems: Look backward before moving forward.\" Procedia Technology, 5, 21-30.",
-        "[4].\tZhang, Y., Zhao, L., Song, Y., & Cheng, X. (2010). \"Service-oriented architecture for supply chain management: A review of approaches, design, and implementation.\" Journal of Systems Science and Systems Engineering, 19(1), 1-22.",
-        "[5].\tLin, H. F. (2014). \"Understanding the determinants of electronic supply chain management system adoption: Using the technology\u2013organization\u2013environment framework.\" Technological Forecasting and Social Change, 86, 80-92.",
-        "[6].\tTao, F., Qi, Q., Liu, A., Kusiak, A. (2018). \"Data-driven smart manufacturing.\" Journal of Manufacturing Systems, 48, 157-169.",
-        "[7].\tSeethamraju, R. (2015). \"Adoption of software as a service (SaaS) enterprise resource planning (ERP) systems in small and medium-sized enterprises (SMEs).\" Information Systems Frontiers, 17(3), 475-492."
-      ],
-      "resource_type": {
-        "title": "Journal article",
-        "type": "publication",
-        "subtype": "article"
-      },
-      "journal": {
-        "issue": "12",
-        "pages": "272-275",
-        "title": "Journal of Scientific and Engineering Research",
-        "volume": "7"
-      },
-      "license": {
-        "id": "cc-by-4.0"
-      },
-      "relations": {
-        "version": [
-          {
-            "index": 0,
-            "is_last": true,
-            "parent": {
-              "pid_type": "recid",
-              "pid_value": "14272903"
-            }
-          }
-        ]
-      }
-    },
-    "title": "Streamlining Supply Chain Operations through SaaS-Based ERP and SOA Integration",
-    "links": {
-      "self": "https://zenodo.org/api/records/14272904",
-      "self_html": "https://zenodo.org/records/14272904",
-      "doi": "https://doi.org/10.5281/zenodo.14272904",
-      "self_doi": "https://doi.org/10.5281/zenodo.14272904",
-      "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14272904",
-      "parent": "https://zenodo.org/api/records/14272903",
-      "parent_html": "https://zenodo.org/records/14272903",
-      "parent_doi": "https://doi.org/10.5281/zenodo.14272903",
-      "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14272903",
-      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14272904/manifest",
-      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14272904/sequence/default",
-      "files": "https://zenodo.org/api/records/14272904/files",
-      "media_files": "https://zenodo.org/api/records/14272904/media-files",
-      "thumbnails": {
-        "10": "https://zenodo.org/api/iiif/record:14272904:JSAER2020-7-12-272-275.pdf/full/^10,/0/default.jpg",
-        "50": "https://zenodo.org/api/iiif/record:14272904:JSAER2020-7-12-272-275.pdf/full/^50,/0/default.jpg",
-        "100": "https://zenodo.org/api/iiif/record:14272904:JSAER2020-7-12-272-275.pdf/full/^100,/0/default.jpg",
-        "250": "https://zenodo.org/api/iiif/record:14272904:JSAER2020-7-12-272-275.pdf/full/^250,/0/default.jpg",
-        "750": "https://zenodo.org/api/iiif/record:14272904:JSAER2020-7-12-272-275.pdf/full/^750,/0/default.jpg",
-        "1200": "https://zenodo.org/api/iiif/record:14272904:JSAER2020-7-12-272-275.pdf/full/^1200,/0/default.jpg"
-      },
-      "archive": "https://zenodo.org/api/records/14272904/files-archive",
-      "archive_media": "https://zenodo.org/api/records/14272904/media-files-archive",
-      "latest": "https://zenodo.org/api/records/14272904/versions/latest",
-      "latest_html": "https://zenodo.org/records/14272904/latest",
-      "versions": "https://zenodo.org/api/records/14272904/versions",
-      "draft": "https://zenodo.org/api/records/14272904/draft",
-      "reserve_doi": "https://zenodo.org/api/records/14272904/draft/pids/doi",
-      "access_links": "https://zenodo.org/api/records/14272904/access/links",
-      "access_grants": "https://zenodo.org/api/records/14272904/access/grants",
-      "access_users": "https://zenodo.org/api/records/14272904/access/users",
-      "access_request": "https://zenodo.org/api/records/14272904/access/request",
-      "access": "https://zenodo.org/api/records/14272904/access",
-      "communities": "https://zenodo.org/api/records/14272904/communities",
-      "communities-suggestions": "https://zenodo.org/api/records/14272904/communities-suggestions",
-      "requests": "https://zenodo.org/api/records/14272904/requests"
-    },
-    "updated": "2024-12-04T08:23:45.203795+00:00",
-    "recid": "14272904",
-    "revision": 4,
-    "files": [
+    "uid": "35372833",
+    "pubdate": "2022",
+    "epubdate": "2022 Mar 14",
+    "source": "Front Artif Intell",
+    "authors": [
       {
-        "id": "9f819293-af43-48ae-9bbd-4daa572beb4b",
-        "key": "JSAER2020-7-12-272-275.pdf",
-        "size": 316832,
-        "checksum": "md5:ee36fe04a7a337790f3494f99465b86b",
-        "links": {
-          "self": "https://zenodo.org/api/records/14272904/files/JSAER2020-7-12-272-275.pdf/content"
-        }
+        "name": "Kordjamshidi P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Roth D",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
       }
     ],
-    "swh": {},
-    "owners": [
+    "lastauthor": "Kersting K",
+    "title": "Declarative Learning-Based Programming as an Interface to AI Systems.",
+    "sorttitle": "declarative learning based programming as an interface to ai systems",
+    "volume": "5",
+    "issue": "",
+    "pages": "755361",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
       {
-        "id": "1048189"
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "35372833"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8967162"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8967162;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2022.755361"
       }
     ],
-    "status": "published",
-    "stats": {
-      "downloads": 1,
-      "unique_downloads": 1,
-      "views": 2,
-      "unique_views": 2,
-      "version_downloads": 1,
-      "version_unique_downloads": 1,
-      "version_unique_views": 2,
-      "version_views": 2
-    },
-    "state": "done",
-    "submitted": true
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2021/08/08 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2022/01/24 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2022/04/04 05:35"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/04/05 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2022/04/05 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2022/03/14 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 85,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2022.755361",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2022/03/14 00:00",
+    "sortfirstauthor": "Kordjamshidi P",
+    "vernaculartitle": ""
   },
   {
-    "created": "2024-10-11T17:44:40.722579+00:00",
-    "modified": "2024-10-11T17:44:40.993737+00:00",
-    "id": 13916873,
-    "conceptrecid": "13916872",
-    "doi": "10.24325/issn.2446-5763.v5i14p252-270",
-    "doi_url": "https://doi.org/10.24325/issn.2446-5763.v5i14p252-270",
-    "metadata": {
-      "title": "MANAGEMENT STRATEGY AND BUSINESS MODELS IN THE ERA OF DIGITAL TRANSFORMATION",
-      "doi": "10.24325/issn.2446-5763.v5i14p252-270",
-      "publication_date": "2019-08-31",
-      "description": "<p>In complicated and fast-moving markets, where growth and wealth creation can occur unpredictability reigns. The ways in which value is created, captured, and offered are changing profoundly, and one of those responsible for this change is digital transformation. New innovative business models are born, and it becomes necessary to rethink the models when it comes to the digital age. The objective of this work is to conceptualize the strategic changes in the business models of the companies to remain competitive of the era of the digital transformation. In order to collect the information necessary for the analysis, we chose to use exploratory research of a qualitative nature. It is justified to adopt the exploratory research, since there are few studies focused on the theme of business model strategy in the era of digital transformation. In our research, the companies interviewed highlight the digital transformation to improve and integrate with more automation all the lines of business segmentation.</p>",
-      "access_right": "open",
-      "creators": [
-        {
-          "name": "Gomes, Jaqueline Geisa Cunha",
-          "affiliation": "Centro Paula Souza"
-        },
-        {
-          "name": "Okano, Marcelo Tsuguio",
-          "affiliation": "Centro Paula Souza"
-        },
-        {
-          "name": "Sim\u00f5es, Eliane Antonio",
-          "affiliation": null
-        },
-        {
-          "name": "Otola, Iwona",
-          "affiliation": "Czestochowa University of Technology"
-        }
-      ],
-      "keywords": [
-        "strategic management",
-        "business model",
-        "digital transformation"
-      ],
-      "references": [
-        "Agarwal, R., Johnson, S.L., Lucas Jr, H.C. Leadership in the face of technological dis-continuities: the transformation of Earthcolor. Commun, (2011).",
-        "BECKER, W. et al. Erfolgsfaktoren der Gesch\u00e4ftsmodelle junger Unternehmen, Bam-berger Betriebswirtschaftliche Beitr\u00e4ge, (2012).",
-        "CASADESUS-MASANELL, R., RICART, J.E. From strategy to business models and onto tactics, p. 195\u2013215, (2010).",
-        "CAUCHICK, P.A., Martins, R.A. Metodologia de pesquisa para engenharia de produ-\u00e7\u00e3o e gest\u00e3o de opera\u00e7\u00f5es. Rio de Janeiro, (2012).",
-        "CHEW, Eng K. Digital Organizations of the Future. in Transition, p. 13, (2015).",
-        "DOLESKI, D.O. Integrated Business Model, p.4-10, (2015).",
-        "EISENHARDT, K, M.; SULL, D, N. Strategy as simple rules. Havard Business School, (2001).",
-        "GEOFFRION, A. M., KRISHNAN, R. E-business and management science: mutual im-pacts, Management Science, p. 1275\u20131286 (2003).",
-        "GRIFFTH, D., JACOBS, L., RICHEY, G., R. Fitting strategy derived from strategic orien-tation to international contexts. Thunderbird International Business Review, p. 239\u2013262, (2006).",
-        "COSTA, Marco A. F.; COSTA, Maria de F. B. Metodologia da Pesquisa \u2013 Conceitos e T\u00e9cnicas. Rio de Janeiro, Ed. InterCi\u00eancia, (2001).",
-        "Hess, T., Matt, C., Benlian, A., Wiesboeck, F., 2016. Options for formulating a digital transformation strategy, (2016).",
-        "IT\u00c4L\u00c4, Timo. Digital Business and Platforms. in Transition, p. 50, (2016).",
-        "KOTLER, P. Marketing Management. Upper Saddle River, NJ: Prentice Hall (2003).",
-        "Majchrzak, A., Markus, M.L., Wareham, J. Designing for digital transformation: lessons for information systems research from the study of ICT and societal challenges. MIS Quart. 40 (2), 267\u2013277, (2016).",
-        "MINTZBERG, H.; AHLSTRAND, B.; LAMPEL, J. Safari de estrat\u00e9gia: um roteiro para a selva do planejamento estrat\u00e9gico (p.299). Porto Alegre: Bookman, (2000).V",
-        "OSTERWALDER, A. The Business Model Ontology: a proposition in a design science approach, v. 173, (2004).",
-        "OSTERWALDER, A., PIGNEUR, Y. Business model generation: A handbook for vi-sionaries, game changers, and challengers. Hoboken, NJ: Wiley, (2010).",
-        "OSTERWALDER, A., PIGNEUR, Y. Business Model Generation - Innovation in busi-ness models: a handbook for visionaries, innovators and revolutionaries, (2011).",
-        "PORTER, M. What is Strategy? Harvard Business Review 74(6): 61\u201378, (1996).",
-        "SHOHAM, A. Firm orientations: so the five orientations affect export performance? Journal of Global Marketing, p. 31\u201347, (2000).",
-        "TEECE, D. J., Linden, G. Business models, value capture, and the digital enterprise. Journal of Organization Design, p. 6-8, (2017).",
-        "VIAL, Gregory. Understanding digital information: a review and a research agenda, (2019).VIAL, Gregory. Understanding digital information: a review and a research agenda, (2019).",
-        "WAN, X.; CENAMOR, J.; PARKER, G.; VAN ALSTYNE, M. Unraveling Platform Strate-gies: A Review from an Organizational Ambidexterity Perspective. Sustainability, (2017).",
-        "WIELAND, H., HARTMANN, NN., Vargo, SL. Business model as service strategy. Journal of the Academy of Marketing Science, p. 925-943, (2017).",
-        "WHEELEN, L.T., HUNGER, D. J. Strategic Mannagement and business policy, pp. 175-189, (2012).",
-        "YIN, R.K. Estudo de caso: planejamento e m\u00e9todos. Porto Alegre, (2001).",
-        "YOSHIDA, Kiminori. Development and Promotion of Application Technologies for Digi-tal Business Platforms. FUJITSU Sci. Tech. J, v. 53, n. 1, p. 67-70, (2017).",
-        "ZIKMUND, W. G. Business Research Methods. 6th edition. The Dryden Press, Fort Worth, (2000).",
-        "Zott, C., & Amit, R. The business model as the engine of network-based strategies, (2009).",
-        "ZOTT, C., AMIT, R. The business model as the engine of network-based strategies, (2009).",
-        "ZOTT, C., AMIT, R. The business model: recent developments and future research. Journal of Management, vol. 37, p. 1019-1042 (2011)."
-      ],
-      "language": "eng",
-      "custom": {
-        "code:codeRepository": "https://www.sadsj.org/index.php/revista/article/view/254"
-      },
-      "resource_type": {
-        "title": "Journal article",
-        "type": "publication",
-        "subtype": "article"
-      },
-      "journal": {
-        "issue": "14",
-        "pages": "252-270",
-        "title": "South American Development Society Journal",
-        "volume": "05"
-      },
-      "license": {
-        "id": "cc-by-4.0"
-      },
-      "communities": [
-        {
-          "id": "sadsj"
-        }
-      ],
-      "relations": {
-        "version": [
-          {
-            "index": 0,
-            "is_last": true,
-            "parent": {
-              "pid_type": "recid",
-              "pid_value": "13916872"
-            }
-          }
-        ]
-      }
-    },
-    "title": "MANAGEMENT STRATEGY AND BUSINESS MODELS IN THE ERA OF DIGITAL TRANSFORMATION",
-    "links": {
-      "self": "https://zenodo.org/api/records/13916873",
-      "self_html": "https://zenodo.org/records/13916873",
-      "doi": "https://doi.org/10.24325/issn.2446-5763.v5i14p252-270",
-      "self_doi": "https://doi.org/10.24325/issn.2446-5763.v5i14p252-270",
-      "self_doi_html": "https://zenodo.org/doi/10.24325/issn.2446-5763.v5i14p252-270",
-      "parent": "https://zenodo.org/api/records/13916872",
-      "parent_html": "https://zenodo.org/records/13916872",
-      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13916873/manifest",
-      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13916873/sequence/default",
-      "files": "https://zenodo.org/api/records/13916873/files",
-      "media_files": "https://zenodo.org/api/records/13916873/media-files",
-      "thumbnails": {
-        "10": "https://zenodo.org/api/iiif/record:13916873:admin%2C%2BGerente%2Bda%2Brevista%2C%2BSADSJ%2BART%2B252-270.pdf/full/^10,/0/default.jpg",
-        "50": "https://zenodo.org/api/iiif/record:13916873:admin%2C%2BGerente%2Bda%2Brevista%2C%2BSADSJ%2BART%2B252-270.pdf/full/^50,/0/default.jpg",
-        "100": "https://zenodo.org/api/iiif/record:13916873:admin%2C%2BGerente%2Bda%2Brevista%2C%2BSADSJ%2BART%2B252-270.pdf/full/^100,/0/default.jpg",
-        "250": "https://zenodo.org/api/iiif/record:13916873:admin%2C%2BGerente%2Bda%2Brevista%2C%2BSADSJ%2BART%2B252-270.pdf/full/^250,/0/default.jpg",
-        "750": "https://zenodo.org/api/iiif/record:13916873:admin%2C%2BGerente%2Bda%2Brevista%2C%2BSADSJ%2BART%2B252-270.pdf/full/^750,/0/default.jpg",
-        "1200": "https://zenodo.org/api/iiif/record:13916873:admin%2C%2BGerente%2Bda%2Brevista%2C%2BSADSJ%2BART%2B252-270.pdf/full/^1200,/0/default.jpg"
-      },
-      "archive": "https://zenodo.org/api/records/13916873/files-archive",
-      "archive_media": "https://zenodo.org/api/records/13916873/media-files-archive",
-      "latest": "https://zenodo.org/api/records/13916873/versions/latest",
-      "latest_html": "https://zenodo.org/records/13916873/latest",
-      "versions": "https://zenodo.org/api/records/13916873/versions",
-      "draft": "https://zenodo.org/api/records/13916873/draft",
-      "reserve_doi": "https://zenodo.org/api/records/13916873/draft/pids/doi",
-      "access_links": "https://zenodo.org/api/records/13916873/access/links",
-      "access_grants": "https://zenodo.org/api/records/13916873/access/grants",
-      "access_users": "https://zenodo.org/api/records/13916873/access/users",
-      "access_request": "https://zenodo.org/api/records/13916873/access/request",
-      "access": "https://zenodo.org/api/records/13916873/access",
-      "communities": "https://zenodo.org/api/records/13916873/communities",
-      "communities-suggestions": "https://zenodo.org/api/records/13916873/communities-suggestions",
-      "requests": "https://zenodo.org/api/records/13916873/requests"
-    },
-    "updated": "2024-10-11T17:44:40.993737+00:00",
-    "recid": "13916873",
-    "revision": 4,
-    "files": [
+    "uid": "35059440",
+    "pubdate": "2021",
+    "epubdate": "2022 Jan 4",
+    "source": "Front Robot AI",
+    "authors": [
       {
-        "id": "f6e1df82-fb98-4557-a34d-3d8a8d6fa89c",
-        "key": "admin,+Gerente+da+revista,+SADSJ+ART+252-270.pdf",
-        "size": 1046410,
-        "checksum": "md5:9736ee09d31f8aaac94b21c0aa6b2efa",
-        "links": {
-          "self": "https://zenodo.org/api/records/13916873/files/admin,+Gerente+da+revista,+SADSJ+ART+252-270.pdf/content"
-        }
+        "name": "Rawal N",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Koert D",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Turan C",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Peters J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Stock-Homburg R",
+        "authtype": "Author",
+        "clusterid": ""
       }
     ],
-    "swh": {},
-    "owners": [
+    "lastauthor": "Stock-Homburg R",
+    "title": "ExGenNet: Learning to Generate Robotic Facial Expression Using Facial Expression Recognition.",
+    "sorttitle": "exgennet learning to generate robotic facial expression using facial expression recognition",
+    "volume": "8",
+    "issue": "",
+    "pages": "730317",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101749350",
+    "issn": "",
+    "essn": "2296-9144",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
       {
-        "id": "1184639"
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "35059440"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8764256"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8764256;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frobt.2021.730317"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "730317"
       }
     ],
-    "status": "published",
-    "stats": {
-      "downloads": 1,
-      "unique_downloads": 1,
-      "views": 0,
-      "unique_views": 0,
-      "version_downloads": 1,
-      "version_unique_downloads": 1,
-      "version_unique_views": 0,
-      "version_views": 0
-    },
-    "state": "done",
-    "submitted": true
-  }
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2021/06/24 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2021/11/05 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2022/01/21 06:23"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/01/22 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2022/01/22 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2022/01/04 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 28,
+    "fulljournalname": "Frontiers in robotics and AI",
+    "elocationid": "doi: 10.3389/frobt.2021.730317",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2022/01/04 00:00",
+    "sortfirstauthor": "Rawal N",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "34604319",
+    "pubdate": "2021",
+    "epubdate": "2021 Sep 16",
+    "source": "Front Robot AI",
+    "authors": [
+      {
+        "name": "Moreno P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Bernardino A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Santos-Victor J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Ventura R",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kersting K",
+    "title": "Editorial: Robots that Learn and Reason: Towards Learning Logic Rules from Noisy Data.",
+    "sorttitle": "editorial robots that learn and reason towards learning logic rules from noisy data",
+    "volume": "8",
+    "issue": "",
+    "pages": "755933",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101749350",
+    "issn": "",
+    "essn": "2296-9144",
+    "pubtype": [
+      "Editorial"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "34604319"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8481360"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8481360;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frobt.2021.755933"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "755933"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2021/08/09 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2021/08/12 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/10/04 06:09"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/10/05 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/10/05 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2021/09/16 00:00"
+      }
+    ],
+    "references": [
+      {
+        "refsource": "Editorial on the Research Topic Robots that Learn and Reason: Towards Learning Logic Rules from Noisy Data",
+        "reftype": "Comment on",
+        "pmid": "",
+        "note": ""
+      }
+    ],
+    "attributes": [],
+    "pmcrefcount": 3,
+    "fulljournalname": "Frontiers in robotics and AI",
+    "elocationid": "doi: 10.3389/frobt.2021.755933",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2021/09/16 00:00",
+    "sortfirstauthor": "Moreno P",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "34368757",
+    "pubdate": "2021",
+    "epubdate": "2021 Jul 21",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Burkhardt S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Brugger J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Wagner N",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Ahmadi Z",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kramer S",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kramer S",
+    "title": "Rule Extraction From Binary Neural Networks With Convolutional Rules for Model Validation.",
+    "sorttitle": "rule extraction from binary neural networks with convolutional rules for model validation",
+    "volume": "4",
+    "issue": "",
+    "pages": "642263",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "34368757"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8336635"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8336635;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2021.642263"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "642263"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2020/12/15 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2021/06/10 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/08/09 06:49"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/08/10 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/08/10 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2021/07/21 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 51,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2021.642263",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2021/07/21 00:00",
+    "sortfirstauthor": "Burkhardt S",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "33733154",
+    "pubdate": "2020",
+    "epubdate": "2020 May 20",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Schramowski P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Turan C",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Jentzsch S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Rothkopf C",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kersting K",
+    "title": "The Moral Choice Machine.",
+    "sorttitle": "moral choice machine",
+    "volume": "3",
+    "issue": "",
+    "pages": "36",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "33733154"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC7861227"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC7861227;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2020.00036"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2019/12/02 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2020/04/28 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/03/18 06:57"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/03/19 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/03/19 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2020/05/20 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 39,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2020.00036",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2020/05/20 00:00",
+    "sortfirstauthor": "Schramowski P",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "33733143",
+    "pubdate": "2020",
+    "epubdate": "2020 Apr 28",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Czech J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Willig M",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Beyer A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "F\u00fcrnkranz J",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "F\u00fcrnkranz J",
+    "title": "Learning to Play the Chess Variant Crazyhouse Above World Champion Level With Deep Neural Networks and Human Data.",
+    "sorttitle": "learning to play the chess variant crazyhouse above world champion level with deep neural networks and human data",
+    "volume": "3",
+    "issue": "",
+    "pages": "24",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "33733143"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC7861260"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC7861260;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2020.00024"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2019/08/20 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2020/03/26 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/03/18 06:57"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/03/19 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/03/19 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2020/04/28 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 51,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2020.00024",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2020/04/28 00:00",
+    "sortfirstauthor": "Czech J",
+    "vernaculartitle": ""
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}
 ]
