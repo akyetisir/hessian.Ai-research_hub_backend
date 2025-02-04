@@ -11,7 +11,7 @@ from datetime import datetime
 from bson import ObjectId
 
 # So sieht eine vollständige Abfrage aus:
-# http://127.0.0.1:8000/papers/title/llm?page=1&page_size=10&sort=date&descending=true
+#  http://127.0.0.1:8000/papers/title/llm?page=1&page_size=10&sort=date&descending=true
 # - page: gewünschte Seite
 # - page_size: Anzahl Ergebnisse pro Seite
 # - sort: "relevance", "views", oder "date"
@@ -50,27 +50,26 @@ def welcome():
     return "Hallo!"
 
 # ---------------------------------------
-# PAPIER-DATENSTRUKTUR
+# PAPER-DATENSTRUKTUR
 # ---------------------------------------
 
 class Paper(BaseModel):
     """
-    Pydantic-Modell für ein Paper, mit optionalen und Standardwerten,
-    damit fehlende Felder keine Fehler erzeugen.
+    Pydantic-Modell für ein Paper, mit optionalen Standardwerten.
+    Fehlende Felder in MongoDB erzeugen keine Fehler.
     """
     title: str
     published: Optional[datetime] = None
-    authors: List[str]
+    authors: List[str] = []
     relevance: int = 0
     abstract: str = "unknown"
-    # Ursprüngliches Feld "citations":
     citations: int = 0
     views: int = 0
     content: str = "unknown"
     journal: Optional[str] = "unknown"
     path: Optional[str] = "no PDF existing"
     path_image: Optional[str] = "no image found"
-    # Neue Felder (aus Semantic Scholar) – optional, Standard=0:
+    # Felder aus Semantic Scholar
     citationCount: int = 0
     highlyInfluentialCitations: int = 0
 
@@ -84,7 +83,6 @@ sort_fields = {
 def dict_to_paper(paper_dict: dict) -> Paper:
     """
     Konvertiert ein Dictionary aus MongoDB in ein Paper-Objekt (Pydantic).
-    Felder, die nicht existieren, bekommen ihre Defaults.
     """
     return Paper(
         title=paper_dict.get('title', 'unknown'),
@@ -92,7 +90,7 @@ def dict_to_paper(paper_dict: dict) -> Paper:
         authors=paper_dict.get('authors', []),
         relevance=paper_dict.get('relevance', 0),
         abstract=paper_dict.get('abstract', 'unknown'),
-        citations=paper_dict.get('citations', 0),  # Altes Feld
+        citations=paper_dict.get('citations', 0),
         views=paper_dict.get('views', 0),
         content=paper_dict.get('content', 'unknown'),
         journal=paper_dict.get('journal', 'unknown'),
@@ -128,14 +126,18 @@ def apply_sorting_and_pagination(
         sort_spec = [(sort_field, sort_dir)]
 
     if sort_spec:
-        cursor = (papers_collection.find(query)
-                  .sort(sort_spec)
-                  .skip(skip)
-                  .limit(limit))
+        cursor = (
+            papers_collection.find(query)
+            .sort(sort_spec)
+            .skip(skip)
+            .limit(limit)
+        )
     else:
-        cursor = (papers_collection.find(query)
-                  .skip(skip)
-                  .limit(limit))
+        cursor = (
+            papers_collection.find(query)
+            .skip(skip)
+            .limit(limit)
+        )
 
     return (list(cursor), total_count)
 
@@ -294,33 +296,46 @@ def get_papers_via_content(
     }
 
 # ---------------------------------------
-# AUTHORS ENDPOINTS
+# AUTHORS: Pydantic-Model & Endpunkte
 # ---------------------------------------
 
-def author_doc_to_dict(author_doc) -> dict:
-    """
-    Wandelt das MongoDB-Dokument eines Autors in ein ausgabefreundliches Dictionary um,
-    konvertiert _id -> string und IGNORIERT das Feld 'papers'.
-    """
-    return {
-        "objectId": str(author_doc["_id"]),  # _id als String
-        "name": author_doc.get("name", ""),
-        "h_index": author_doc.get("h_index", 0),
-        "citations": author_doc.get("citations", 0),
-        "highly_influential_citations": author_doc.get("highly_influential_citations", 0),
-        "image_path": author_doc.get("image_path", "images/placeholder_author.png")
-    }
+# A) Modell für einen einzelnen Autor (ohne "papers")
+class AuthorModel(BaseModel):
+    objectId: str
+    name: str
+    h_index: int = 0
+    citations: int = 0
+    highly_influential_citations: int = 0
+    image_path: str = "images/placeholder_author.png"
 
+# B) Modell für paginierte Antwort
+class AuthorsPaginationResponse(BaseModel):
+    total_count: int
+    page: int
+    page_size: int
+    authors: List[AuthorModel]
 
-@app.get("/authors/{author_name}")
+def author_doc_to_model(doc: dict) -> AuthorModel:
+    """
+    Wandelt ein Autor-Dokument in ein AuthorModel um.
+    papers wird ignoriert.
+    """
+    return AuthorModel(
+        objectId=str(doc["_id"]),
+        name=doc.get("name", ""),
+        h_index=doc.get("h_index", 0),
+        citations=doc.get("citations", 0),
+        highly_influential_citations=doc.get("highly_influential_citations", 0),
+        image_path=doc.get("image_path", "images/placeholder_author.png")
+    )
+
+@app.get("/authors/{author_name}", response_model=AuthorModel)
 def get_author_by_name(author_name: str):
     """
     Sucht (case-insensitive) nach einem Autor mit passendem Namen.
-    Gibt das komplette Dokument inkl. objectId zurück.
+    Gibt das Ergebnis als AuthorModel zurück.
     """
-    # Exakte Suche (case-insensitive), d.h. "Stefan Roth" findet "Stefan Roth",
-    #   aber nicht "Stefan Rother".
-    # Entferne ^ und $, wenn du Teilstring-Suche möchtest.
+    # Exakte Suche (case-insensitive); entferne ^ und $, wenn du Teilstring-Suche möchtest.
     regex_query = {
         "name": {
             "$regex": f"^{author_name}$",
@@ -332,13 +347,60 @@ def get_author_by_name(author_name: str):
     if not author_doc:
         raise HTTPException(status_code=404, detail=f"No author found for name '{author_name}'")
 
-    return author_doc_to_dict(author_doc)
+    return author_doc_to_model(author_doc)
 
-@app.get("/authors/objnr/{obj_id}")
+@app.get("/authors", response_model=AuthorsPaginationResponse)
+def get_all_authors(
+    page: int = 1,
+    page_size: int = 15,
+    sort: Optional[str] = None,
+    descending: bool = False
+):
+    """
+    Gibt eine paginierte Liste aller Autoren zurück, mit optionaler Sortierung.
+    """
+    skip = (page - 1) * page_size
+    limit = page_size
+
+    # Mögliche Sortierfelder
+    sort_fields_authors = {
+        "name": "name",
+        "h_index": "h_index",
+        "citations": "citations",
+        "highly_influential_citations": "highly_influential_citations"
+    }
+
+    total_count = authors_collection.count_documents({})
+
+    if total_count == 0:
+        raise HTTPException(status_code=404, detail="No authors found")
+
+    sort_spec = None
+    if sort and sort in sort_fields_authors:
+        sort_field = sort_fields_authors[sort]
+        sort_dir = DESCENDING if descending else ASCENDING
+        sort_spec = [(sort_field, sort_dir)]
+
+    if sort_spec:
+        cursor = authors_collection.find({}).sort(sort_spec).skip(skip).limit(limit)
+    else:
+        cursor = authors_collection.find({}).skip(skip).limit(limit)
+
+    author_docs = list(cursor)
+    authors_list = [author_doc_to_model(doc) for doc in author_docs]
+
+    return AuthorsPaginationResponse(
+        total_count=total_count,
+        page=page,
+        page_size=page_size,
+        authors=authors_list
+    )
+
+@app.get("/authors/objnr/{obj_id}", response_model=AuthorModel)
 def get_author_by_objectid(obj_id: str):
     """
     Sucht nach einem Autor mit bestimmter MongoDB-ObjektID.
-    Gibt das komplette Dokument zurück.
+    Gibt das komplette Dokument zurück (als AuthorModel).
     """
     try:
         oid = ObjectId(obj_id)
@@ -352,4 +414,4 @@ def get_author_by_objectid(obj_id: str):
             detail=f"No author found for _id '{obj_id}'"
         )
 
-    return author_doc_to_dict(author_doc)
+    return author_doc_to_model(author_doc)
