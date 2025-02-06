@@ -17,10 +17,14 @@ def select_container(container, selector:str):
 def extract_authors(container):
     authors = container.find_all('a', {'href': re.compile(r"https:\/\/hessian\.ai\/de\/personen\/")})
     author_list = []
+    auth_data = {}
     for author in authors:
-    # filter out empty text from image links
-        if len(author.text) > 0:
-            author_list.append(author.text)
+        if author.img != None:
+            auth_data["image_URL"] = author.img.get('src')
+            auth_data["profile_URL"] = author.get('href')
+        else:
+            author_list.append({f"{author.text}": auth_data})
+
     return author_list
 
 if __name__ == "__main__":    
