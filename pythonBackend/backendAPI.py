@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pymongo import MongoClient, ASCENDING, DESCENDING
@@ -100,6 +100,28 @@ def dict_to_paper(paper_dict: dict) -> Paper:
         highlyInfluentialCitations=paper_dict.get('highlyInfluentialCitations', 0)
     )
 
+def build_filter_query(
+    query, 
+    year: Optional[List[int]] = Query(None),
+    min_views: int = 0,  
+    max_views: Optional[int] = None,
+    min_citations: int = 0,  
+    max_citations: Optional[int] = None,
+    # min_hi_citations: int = 0,  
+    # max_hi_citations: Optional[int] = None
+    ):
+
+    if year:
+        query.update({"$or": [{"published": {"$regex": f"{y}" }}for y in year]})
+    if max_views:
+        query.update({"views": {"$gte": min_views, "$lte": max_views}})
+    if max_citations:
+        query.update({"citations": {"$gte": min_citations, "$lte": max_citations}})
+    # if max_hi_citations:
+    #     query.update({"highlyInfluentialCitations": {"$gte": min_hi_citations, "$lte": max_hi_citations}})
+
+    return query
+
 def apply_sorting_and_pagination(
     query: dict,
     page: int,
@@ -175,7 +197,14 @@ def get_papers_via_author(
     page: int = 1,
     page_size: int = 15,
     sort: Optional[str] = None,
-    descending: bool = False
+    descending: bool = False,
+    year: Optional[List[int]] = Query(None),
+    min_views: int = 0,  
+    max_views: Optional[int] = None,
+    min_citations: int = 0,  
+    max_citations: Optional[int] = None #,
+#    min_hi_citations: int = 0,  
+#    max_hi_citations: Optional[int] = None
 ):
     """
     Liefert alle Papers für einen bestimmten Autor
@@ -188,6 +217,9 @@ def get_papers_via_author(
             "$options": "i"
         }
     }
+
+    # update query
+    query = build_filter_query(query, year, min_views, max_views, min_citations, max_citations) # , min_hi_citations, max_hi_citations)
 
     results, total = apply_sorting_and_pagination(query, page, page_size, sort, descending)
 
@@ -210,12 +242,21 @@ def get_papers_via_tag(
     page: int = 1,
     page_size: int = 15,
     sort: Optional[str] = None,
-    descending: bool = False
+    descending: bool = False,
+    year: Optional[List[int]] = Query(None),
+    min_views: int = 0,  
+    max_views: Optional[int] = None,
+    min_citations: int = 0,  
+    max_citations: Optional[int] = None #,
+#    min_hi_citations: int = 0,  
+#    max_hi_citations: Optional[int] = None
 ):
     """
     Sucht nach Papers, die ein Feld "tag" mit passendem Wert haben.
     """
     query = {"tag": tag}
+    # update query
+    query = build_filter_query(query, year, min_views, max_views, min_citations, max_citations) # , min_hi_citations, max_hi_citations)
     results, total = apply_sorting_and_pagination(query, page, page_size, sort, descending)
 
     if not results:
@@ -237,7 +278,14 @@ def get_papers_via_title(
     page: int = 1,
     page_size: int = 15,
     sort: Optional[str] = None,
-    descending: bool = False
+    descending: bool = False,
+    year: Optional[List[int]] = Query(None),
+    min_views: int = 0,  
+    max_views: Optional[int] = None,
+    min_citations: int = 0,  
+    max_citations: Optional[int] = None #,
+#    min_hi_citations: int = 0,  
+#    max_hi_citations: Optional[int] = None
 ):
     """
     Sucht nach Papers, deren "title" den gesuchten String enthält.
@@ -248,6 +296,8 @@ def get_papers_via_title(
             "$options": "i"
         }
     }
+    # update query
+    query = build_filter_query(query, year, min_views, max_views, min_citations, max_citations) # , min_hi_citations, max_hi_citations)
     results, total = apply_sorting_and_pagination(query, page, page_size, sort, descending)
 
     if not results:
@@ -269,7 +319,14 @@ def get_papers_via_content(
     page: int = 1,
     page_size: int = 15,
     sort: Optional[str] = None,
-    descending: bool = False
+    descending: bool = False,
+    year: Optional[List[int]] = Query(None),
+    min_views: int = 0,  
+    max_views: Optional[int] = None,
+    min_citations: int = 0,  
+    max_citations: Optional[int] = None #,
+#    min_hi_citations: int = 0,  
+#    max_hi_citations: Optional[int] = None
 ):
     """
     Sucht in "content" nach dem String (case-insensitive).
@@ -280,6 +337,8 @@ def get_papers_via_content(
             "$options": "i"
         }
     }
+    # update query
+    query = build_filter_query(query, year, min_views, max_views, min_citations, max_citations) # , min_hi_citations, max_hi_citations)
     results, total = apply_sorting_and_pagination(query, page, page_size, sort, descending)
 
     if not results:
