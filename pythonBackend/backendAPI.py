@@ -176,9 +176,19 @@ def get_all_papers(
     page: int = 1,
     page_size: int = 15,
     sort: Optional[str] = None,
-    descending: bool = False
+    descending: bool = False,
+    year: Optional[List[int]] = Query(None),
+    min_views: int = 0,  
+    max_views: Optional[int] = None,
+    min_citations: int = 0,  
+    max_citations: Optional[int] = None
 ):
     query = {}
+
+    # update query
+    query = build_filter_query(query, year, min_views, max_views, min_citations, max_citations) # , min_hi_citations, max_hi_citations)
+
+
     results, total = apply_sorting_and_pagination(query, page, page_size, sort, descending)
 
     if not results:
