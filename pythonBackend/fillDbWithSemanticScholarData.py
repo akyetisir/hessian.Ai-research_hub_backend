@@ -6,6 +6,11 @@ from rapidfuzz import fuzz
 from pymongo import MongoClient
 from dotenv import load_dotenv
 
+# Diese Datei füllt alle Autoren in der DB mit den Attributen H-Index, Citations und HighlyInfluentialCitations.
+# Diese Datei füllt auch alle Paper mit Citation_Count und HighlyInfluentialCitations
+# Diese Datei nimmt dazu die Daten aus /semanticAPI/.... die vorher von semanticScholarCall.py aufbereitet wurden
+
+
 # === .env laden ===
 load_dotenv()
 
