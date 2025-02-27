@@ -69,6 +69,7 @@ class Paper(BaseModel):
     journal: Optional[str] = "unknown"
     path: Optional[str] = "no PDF existing"
     path_image: Optional[str] = "no image found"
+    is_hess_paper: str = ""
     # Felder aus Semantic Scholar
     citationCount: int = 0
     highlyInfluentialCitations: int = 0
@@ -97,7 +98,8 @@ def dict_to_paper(paper_dict: dict) -> Paper:
         path=paper_dict.get('path', 'no PDF existing'),
         path_image=paper_dict.get('path_image', 'no image found'),
         citationCount=paper_dict.get('citationCount', 0),
-        highlyInfluentialCitations=paper_dict.get('highlyInfluentialCitations', 0)
+        highlyInfluentialCitations=paper_dict.get('highlyInfluentialCitations', 0),
+        is_hess_paper=paper_dict.get('is_hess_paper', 'unkown')
     )
 
 def apply_sorting_and_pagination(
