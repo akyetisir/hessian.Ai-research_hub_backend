@@ -15,6 +15,7 @@ pythonBackend/.DS_Store
 # ignoriere die pdfs, xmls und Bilder
 pythonBackend/pdfs/
 pythonBackend/xmls/
+pythonBackend/jsons/
 images/
 *.xml
 *.pdf
