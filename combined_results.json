@@ -1,0 +1,1389 @@
+[
+  {
+    "uid": "38216691",
+    "pubdate": "2024 Apr",
+    "epubdate": "2024 Jan 12",
+    "source": "Nat Hum Behav",
+    "authors": [
+      {
+        "name": "Thomas T",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Straub D",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Tatai F",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Shene M",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Tosik T",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Rothkopf CA",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Rothkopf CA",
+    "title": "Modelling dataset bias in machine-learned theories of economic decision-making.",
+    "sorttitle": "modelling dataset bias in machine learned theories of economic decision making",
+    "volume": "8",
+    "issue": "4",
+    "pages": "679-691",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101697750",
+    "issn": "",
+    "essn": "2397-3374",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "256",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "38216691"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC11045447"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC11045447;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.1038/s41562-023-01784-6"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "10.1038/s41562-023-01784-6"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2022/10/19 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2023/11/14 00:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2024/04/26 00:52"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2024/01/13 00:42"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2024/01/12 23:21"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2024/01/12 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 76,
+    "fulljournalname": "Nature human behaviour",
+    "elocationid": "doi: 10.1038/s41562-023-01784-6",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2024/04/01 00:00",
+    "sortfirstauthor": "Thomas T",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "38028664",
+    "pubdate": "2023",
+    "epubdate": "2023 Nov 13",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Yan S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Odom P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Pasunuri R",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Natarajan S",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Natarajan S",
+    "title": "Learning with privileged and sensitive information: a gradient-boosting approach.",
+    "sorttitle": "learning with privileged and sensitive information a gradient boosting approach",
+    "volume": "6",
+    "issue": "",
+    "pages": "1260583",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "38028664"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC10679679"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC10679679;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2023.1260583"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2023/07/18 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2023/10/20 00:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2023/11/29 18:43"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2023/11/29 18:42"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2023/11/29 17:16"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2023/11/13 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 53,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2023.1260583",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/11/13 00:00",
+    "sortfirstauthor": "Yan S",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "37251273",
+    "pubdate": "2023",
+    "epubdate": "2023 May 12",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Bl\u00fcml J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Czech J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kersting K",
+    "title": "AlphaZe\u2217\u2217: AlphaZero-like baselines for imperfect information games are surprisingly strong.",
+    "sorttitle": "alphaze alphazero like baselines for imperfect information games are surprisingly strong",
+    "volume": "6",
+    "issue": "",
+    "pages": "1014561",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "37251273"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC10213697"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC10213697;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2023.1014561"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2022/08/08 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2023/04/20 00:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2023/05/30 13:08"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2023/05/30 13:07"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2023/05/30 11:34"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2023/05/12 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 41,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2023.1014561",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/05/12 00:00",
+    "sortfirstauthor": "Bl\u00fcml J",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "36540991",
+    "pubdate": "2023",
+    "epubdate": "",
+    "source": "Pac Symp Biocomput",
+    "authors": [
+      {
+        "name": "Mathur S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Karanam A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Radivojac P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Haas DM",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Natarajan S",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Natarajan S",
+    "title": "Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes.",
+    "sorttitle": "exploiting domain knowledge as causal independencies in modeling gestational diabetes",
+    "volume": "28",
+    "issue": "",
+    "pages": "359-370",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "9711271",
+    "issn": "2335-6928",
+    "essn": "2335-6936",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "4",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "36540991"
+      },
+      {
+        "idtype": "mid",
+        "idtypen": 8,
+        "value": "NIHMS1853000"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC9782711"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC9782711;manuscript-id: NIHMS1853000;"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "9789811270611_0033"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "entrez",
+        "date": "2022/12/21 02:33"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/12/22 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2022/12/23 06:00"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2023/01/01 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 12,
+    "fulljournalname": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing",
+    "elocationid": "",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/01/01 00:00",
+    "sortfirstauthor": "Mathur S",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "35904439",
+    "pubdate": "2023 Jan",
+    "epubdate": "2023 Jan 13",
+    "source": "Phytopathology",
+    "authors": [
+      {
+        "name": "Brugger A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Yamati FI",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Barreto A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Paulus S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Schramowsk P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Steiner U",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Neugart S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Mahlein AK",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Mahlein AK",
+    "title": "Hyperspectral Imaging in the UV Range Allows for Differentiation of Sugar Beet Diseases Based on Changes in Secondary Plant Metabolites.",
+    "sorttitle": "hyperspectral imaging in the uv range allows for differentiation of sugar beet diseases based on changes in secondary plant metabolites",
+    "volume": "113",
+    "issue": "1",
+    "pages": "44-54",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "9427222",
+    "issn": "0031-949X",
+    "essn": "",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "256",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "35904439"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.1094/PHYTO-03-22-0086-R"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/07/30 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2023/01/28 06:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2022/07/29 10:05"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": "",
+    "fulljournalname": "Phytopathology",
+    "elocationid": "doi: 10.1094/PHYTO-03-22-0086-R",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/01/01 00:00",
+    "sortfirstauthor": "Brugger A",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "35372833",
+    "pubdate": "2022",
+    "epubdate": "2022 Mar 14",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Kordjamshidi P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Roth D",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kersting K",
+    "title": "Declarative Learning-Based Programming as an Interface to AI Systems.",
+    "sorttitle": "declarative learning based programming as an interface to ai systems",
+    "volume": "5",
+    "issue": "",
+    "pages": "755361",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "35372833"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8967162"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8967162;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2022.755361"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2021/08/08 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2022/01/24 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2022/04/04 05:35"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/04/05 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2022/04/05 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2022/03/14 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 85,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2022.755361",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2022/03/14 00:00",
+    "sortfirstauthor": "Kordjamshidi P",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "35059440",
+    "pubdate": "2021",
+    "epubdate": "2022 Jan 4",
+    "source": "Front Robot AI",
+    "authors": [
+      {
+        "name": "Rawal N",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Koert D",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Turan C",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Peters J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Stock-Homburg R",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Stock-Homburg R",
+    "title": "ExGenNet: Learning to Generate Robotic Facial Expression Using Facial Expression Recognition.",
+    "sorttitle": "exgennet learning to generate robotic facial expression using facial expression recognition",
+    "volume": "8",
+    "issue": "",
+    "pages": "730317",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101749350",
+    "issn": "",
+    "essn": "2296-9144",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "35059440"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8764256"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8764256;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frobt.2021.730317"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "730317"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2021/06/24 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2021/11/05 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2022/01/21 06:23"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2022/01/22 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2022/01/22 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2022/01/04 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 28,
+    "fulljournalname": "Frontiers in robotics and AI",
+    "elocationid": "doi: 10.3389/frobt.2021.730317",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2022/01/04 00:00",
+    "sortfirstauthor": "Rawal N",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "34604319",
+    "pubdate": "2021",
+    "epubdate": "2021 Sep 16",
+    "source": "Front Robot AI",
+    "authors": [
+      {
+        "name": "Moreno P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Bernardino A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Santos-Victor J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Ventura R",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kersting K",
+    "title": "Editorial: Robots that Learn and Reason: Towards Learning Logic Rules from Noisy Data.",
+    "sorttitle": "editorial robots that learn and reason towards learning logic rules from noisy data",
+    "volume": "8",
+    "issue": "",
+    "pages": "755933",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101749350",
+    "issn": "",
+    "essn": "2296-9144",
+    "pubtype": [
+      "Editorial"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "34604319"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8481360"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8481360;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frobt.2021.755933"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "755933"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2021/08/09 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2021/08/12 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/10/04 06:09"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/10/05 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/10/05 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2021/09/16 00:00"
+      }
+    ],
+    "references": [
+      {
+        "refsource": "Editorial on the Research Topic Robots that Learn and Reason: Towards Learning Logic Rules from Noisy Data",
+        "reftype": "Comment on",
+        "pmid": "",
+        "note": ""
+      }
+    ],
+    "attributes": [],
+    "pmcrefcount": 3,
+    "fulljournalname": "Frontiers in robotics and AI",
+    "elocationid": "doi: 10.3389/frobt.2021.755933",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2021/09/16 00:00",
+    "sortfirstauthor": "Moreno P",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "34368757",
+    "pubdate": "2021",
+    "epubdate": "2021 Jul 21",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Burkhardt S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Brugger J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Wagner N",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Ahmadi Z",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kramer S",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kramer S",
+    "title": "Rule Extraction From Binary Neural Networks With Convolutional Rules for Model Validation.",
+    "sorttitle": "rule extraction from binary neural networks with convolutional rules for model validation",
+    "volume": "4",
+    "issue": "",
+    "pages": "642263",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "34368757"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC8336635"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC8336635;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2021.642263"
+      },
+      {
+        "idtype": "pii",
+        "idtypen": 4,
+        "value": "642263"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2020/12/15 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2021/06/10 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/08/09 06:49"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/08/10 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/08/10 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2021/07/21 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 51,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2021.642263",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2021/07/21 00:00",
+    "sortfirstauthor": "Burkhardt S",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "33733154",
+    "pubdate": "2020",
+    "epubdate": "2020 May 20",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Schramowski P",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Turan C",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Jentzsch S",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Rothkopf C",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "Kersting K",
+    "title": "The Moral Choice Machine.",
+    "sorttitle": "moral choice machine",
+    "volume": "3",
+    "issue": "",
+    "pages": "36",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "33733154"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC7861227"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC7861227;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2020.00036"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2019/12/02 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2020/04/28 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/03/18 06:57"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/03/19 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/03/19 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2020/05/20 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 39,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2020.00036",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2020/05/20 00:00",
+    "sortfirstauthor": "Schramowski P",
+    "vernaculartitle": ""
+  },
+  {
+    "uid": "33733143",
+    "pubdate": "2020",
+    "epubdate": "2020 Apr 28",
+    "source": "Front Artif Intell",
+    "authors": [
+      {
+        "name": "Czech J",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Willig M",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Beyer A",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "Kersting K",
+        "authtype": "Author",
+        "clusterid": ""
+      },
+      {
+        "name": "F\u00fcrnkranz J",
+        "authtype": "Author",
+        "clusterid": ""
+      }
+    ],
+    "lastauthor": "F\u00fcrnkranz J",
+    "title": "Learning to Play the Chess Variant Crazyhouse Above World Champion Level With Deep Neural Networks and Human Data.",
+    "sorttitle": "learning to play the chess variant crazyhouse above world champion level with deep neural networks and human data",
+    "volume": "3",
+    "issue": "",
+    "pages": "24",
+    "lang": [
+      "eng"
+    ],
+    "nlmuniqueid": "101770551",
+    "issn": "",
+    "essn": "2624-8212",
+    "pubtype": [
+      "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+      {
+        "idtype": "pubmed",
+        "idtypen": 1,
+        "value": "33733143"
+      },
+      {
+        "idtype": "pmc",
+        "idtypen": 8,
+        "value": "PMC7861260"
+      },
+      {
+        "idtype": "pmcid",
+        "idtypen": 5,
+        "value": "pmc-id: PMC7861260;"
+      },
+      {
+        "idtype": "doi",
+        "idtypen": 3,
+        "value": "10.3389/frai.2020.00024"
+      }
+    ],
+    "history": [
+      {
+        "pubstatus": "received",
+        "date": "2019/08/20 00:00"
+      },
+      {
+        "pubstatus": "accepted",
+        "date": "2020/03/26 00:00"
+      },
+      {
+        "pubstatus": "entrez",
+        "date": "2021/03/18 06:57"
+      },
+      {
+        "pubstatus": "pubmed",
+        "date": "2021/03/19 06:00"
+      },
+      {
+        "pubstatus": "medline",
+        "date": "2021/03/19 06:01"
+      },
+      {
+        "pubstatus": "pmc-release",
+        "date": "2020/04/28 00:00"
+      }
+    ],
+    "references": [],
+    "attributes": [
+      "Has Abstract"
+    ],
+    "pmcrefcount": 51,
+    "fulljournalname": "Frontiers in artificial intelligence",
+    "elocationid": "doi: 10.3389/frai.2020.00024",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2020/04/28 00:00",
+    "sortfirstauthor": "Czech J",
+    "vernaculartitle": ""
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}
+]
