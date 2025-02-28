@@ -69,6 +69,7 @@ class Paper(BaseModel):
     journal: Optional[str] = "unknown"
     path: Optional[str] = "no PDF existing"
     path_image: Optional[str] = "no image found"
+    is_hess_paper: str = ""
     # Felder aus Semantic Scholar
     citationCount: int = 0
     highlyInfluentialCitations: int = 0
