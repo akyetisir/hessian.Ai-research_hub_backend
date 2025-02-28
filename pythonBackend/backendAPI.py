@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os
 from pydantic import BaseModel
 from typing import List, Optional
-from datetime import datetime
+# from datetime import datetime
 from bson import ObjectId
 
 # So sieht eine vollständige Abfrage aus:
@@ -59,7 +59,7 @@ class Paper(BaseModel):
     Fehlende Felder in MongoDB erzeugen keine Fehler.
     """
     title: str
-    published: Optional[datetime] = None
+    published: str = ""
     authors: List[str] = []
     relevance: int = 0
     abstract: str = "unknown"
@@ -81,26 +81,43 @@ sort_fields = {
     "date": "published"
 }
 
+def replaceNoneTypes(field, replacer):
+    if field == None:
+        return replacer
+    else:
+        return field
+
 def dict_to_paper(paper_dict: dict) -> Paper:
     """
     Konvertiert ein Dictionary aus MongoDB in ein Paper-Objekt (Pydantic).
     """
+    if not type(paper_dict['abstract']) is str:
+        print(f"type: {type(paper_dict['abstract'])}")
+        print(f"type: {paper_dict['abstract'] == None }")
+
+    # not all papers are from semantic scholar and thus have these fields
+    if not "citationCount" in paper_dict:
+        paper_dict.update({"citationCount": 0})
+    if not "highlyInfluentialCitations" in paper_dict:
+        paper_dict.update({"highlyInfluentialCitations": 0})
+
+
     return Paper(
-        title=paper_dict.get('title', 'unknown'),
-        published=paper_dict.get('published', None),
-        authors=paper_dict.get('authors', []),
-        relevance=paper_dict.get('relevance', 0),
-        abstract=paper_dict.get('abstract', 'unknown'),
-        citations=paper_dict.get('citations', 0),
-        views=paper_dict.get('views', 0),
-        content=paper_dict.get('content', 'unknown'),
-        journal=paper_dict.get('journal', 'unknown'),
-        path=paper_dict.get('path', 'no PDF existing'),
-        path_image=paper_dict.get('path_image', 'no image found'),
-        citationCount=paper_dict.get('citationCount', 0),
-        highlyInfluentialCitations=paper_dict.get('highlyInfluentialCitations', 0),
-        is_hess_paper=paper_dict.get('is_hess_paper', 'unkown')
+        title= replaceNoneTypes(paper_dict['title'], 'unknown'),
+        published=replaceNoneTypes(paper_dict['published'], ""),
+        authors=replaceNoneTypes(paper_dict['authors'], []),
+        relevance=replaceNoneTypes(paper_dict['relevance'], 0),
+        abstract=replaceNoneTypes(paper_dict['abstract'], 'unknown'),
+        citations=replaceNoneTypes(paper_dict['citations'], 0),
+        views=replaceNoneTypes(paper_dict['views'], 0),
+        content=replaceNoneTypes(paper_dict['content'], 'unknown'),
+        journal=replaceNoneTypes(paper_dict['journal'], 'unknown'),
+        path=replaceNoneTypes(paper_dict['path'], 'no PDF existing'),
+        path_image=replaceNoneTypes(paper_dict['path_image'], 'no image found'),
+        citationCount=replaceNoneTypes(paper_dict['citationCount'], 0),
+        highlyInfluentialCitations=replaceNoneTypes(paper_dict['highlyInfluentialCitations'], 0)
     )
+
 
 def build_filter_query(
     query, 
@@ -113,6 +130,8 @@ def build_filter_query(
     # max_hi_citations: Optional[int] = None
     ):
 
+    query.update({"published": { "$ne" : "null" }})
+    
     if year:
         query.update({"$or": [{"published": {"$regex": f"{y}" }}for y in year]})
     if max_views:
@@ -240,7 +259,7 @@ def get_papers_via_author(
             status_code=404,
             detail=f"No papers found for author '{author_name}'"
         )
-
+    
     return {
         "total_count": total,
         "page": page,
